@@ -1,0 +1,460 @@
+{
+
+	"ContactNew":
+	{
+		"ContactNewTabContainer":
+		{
+			"RefID": "Root"
+		},
+		"ContactNewFormfieldsAddress":
+		{
+			"RefID": "ContactNewTabContainer",
+			"ElementID": "TabContactNewAddressData"
+		},
+		"ContactNewFormfieldsContact":
+		{
+			"RefID": "ContactNewTabContainer",
+			"ElementID": "TabContactNewContactData"
+		},
+		"ContactNewName":
+		{
+			"RefID": "ContactNewFormfieldsAddress"
+		},
+		"ContactNewStreet":
+		{
+			"RefID": "ContactNewFormfieldsAddress"
+		},
+		"ContactNewZipcode":
+		{
+			"RefID": "ContactNewFormfieldsAddress"
+		},
+		"ContactNewCountry":
+		{
+			"RefID": "ContactNewFormfieldsAddress"
+		},
+		"ContactNewMailAddress":
+		{
+			"RefID": "ContactNewFormfieldsContact"
+		},
+		"ContactNewPhone":
+		{
+			"RefID": "ContactNewFormfieldsContact"
+		},
+		"ContactNewSubmit":
+		{
+			"RefID": "Root"
+		}
+	},
+	"ContactUpdate":
+	{
+		"ContactUpdateTabContainer":
+		{
+			"RefID": "Root"
+		},
+		"ContactUpdateConnectorAddress":
+		{
+			"RefID": "ContactUpdateTabContainer",
+			"ElementID": "TabContactUpdateAddressData"
+		},
+		"ContactUpdateFormfieldsAddress":
+		{
+			"RefID": "ContactUpdateConnectorAddress"
+		},
+		"ContactUpdateId":
+		{
+			"RefID": "ContactUpdateFormfieldsAddress"
+		},
+		"ContactUpdateName":
+		{
+			"RefID": "ContactUpdateFormfieldsAddress"
+		},
+		"ContactUpdateStreet":
+		{
+			"RefID": "ContactUpdateFormfieldsAddress"
+		},
+		"ContactUpdateZipcode":
+		{
+			"RefID": "ContactUpdateFormfieldsAddress"
+		},
+		"ContactUpdateCountry":
+		{
+			"RefID": "ContactUpdateFormfieldsAddress"
+		},
+		"ContactUpdateConnectorContact":
+		{
+			"RefID": "ContactUpdateTabContainer",
+			"ElementID": "TabContactUpdateContactData"
+		},
+		"ContactUpdateFormfieldsContact":
+		{
+			"RefID": "ContactUpdateConnectorContact"
+		},
+		"ContactUpdateMailAddress":
+		{
+			"RefID": "ContactUpdateFormfieldsContact"
+		},
+		"ContactUpdatePhone":
+		{
+			"RefID": "ContactUpdateFormfieldsContact"
+		},
+		"ContactUpdateSubmit":
+		{
+			"RefID": "Root"
+		}
+	},
+	"ContactSearch":
+	{
+		"ContactSearchFormfields":
+		{
+			"RefID": "Root"
+		},
+		"ContactSearchName":
+		{
+			"RefID": "ContactSearchFormfields"
+		},
+		"ContactSearchDateFrom":
+		{
+			"RefID": "ContactSearchFormfields"
+		},
+	
+		"ContactSearchDateTo":
+		{
+			"RefID": "ContactSearchFormfields"
+		},
+
+		"ContactSearchSubmit":
+		{
+			"RefID": "Root"
+		},
+		"ContactSearchResultListConnector":
+		{
+			"RefID": "Root"
+		},
+		"ContactSearchResultList":
+		{
+			"RefID": "ContactSearchResultListConnector"
+		}
+	},
+	"ArticleNew":
+	{
+		"ArticleNewTabContainer":
+		{
+			"RefID": "Root"
+		},
+		"ArticleNewFormfieldsPackaging":
+		{
+			"RefID": "ArticleNewTabContainer",
+			"ElementID": "TabArticleNewPackaging"
+		},
+		"ArticleNewReceiver":
+		{
+			"RefID": "ArticleNewFormfieldsPackaging"
+		},
+		"ArticleNewPackagingType":
+		{
+			"RefID": "ArticleNewFormfieldsPackaging"
+		},
+		"ArticleNewPackagingSubType":
+		{
+			"RefID": "ArticleNewFormfieldsPackaging"
+		},
+		"ArticleNewPackagingContent":
+		{
+			"RefID": "ArticleNewFormfieldsPackaging"
+		},
+		"ArticleNewPackagingMark":
+		{
+			"RefID": "ArticleNewFormfieldsPackaging"
+		},
+		"ArticleNewQuantity":
+		{
+			"RefID": "ArticleNewFormfieldsPackaging"
+		},
+		"ArticleNewStamping":
+		{
+			"RefID": "ArticleNewFormfieldsPackaging"
+		},
+		"ArticleNewFormfieldsRemark":
+		{
+			"RefID": "ArticleNewTabContainer",
+			"ElementID": "TabArticleNewRemark"
+		},
+		"ArticleNewRemark1":
+		{
+			"RefID": "ArticleNewFormfieldsRemark"
+		},
+		"ArticleNewRemark2":
+		{
+			"RefID": "ArticleNewFormfieldsRemark"
+		},
+		"ArticleNewRemark3":
+		{
+			"RefID": "ArticleNewFormfieldsRemark"
+		},
+		"ArticleNewRemark4":
+		{
+			"RefID": "ArticleNewFormfieldsRemark"
+		},
+		"ArticleNewFormfieldsDummy":
+		{
+			"RefID": "ArticleNewTabContainer",
+			"ElementID": "TabArticleNewOverview"
+		},
+		"ArticleNewListConnector":
+		{
+			"RefID": "ArticleNewTabContainer",
+			"ElementID": "TabArticleNewOverview"
+		},
+		"ArticleNewList":
+		{
+			"RefID": "ArticleNewListConnector"
+		},
+		"ArticleNewSubmit":
+		{
+			"RefID": "Root"
+		}
+	},
+	"ArticleUpdate":
+	{
+		"ArticleUpdateConnector":
+		{
+			"RefID": "Root"
+		},
+		"ArticleUpdateFormfields":
+		{
+			"RefID": "ArticleUpdateConnector"
+		},
+		"ArticleUpdateId":
+		{
+			"RefID": "ArticleUpdateFormfields"
+		},
+		"ArticleUpdateReceiver":
+		{
+			"RefID": "ArticleUpdateFormfields"
+		},
+		"ArticleUpdatePackagingType":
+		{
+			"RefID": "ArticleUpdateFormfields"
+		},
+		"ArticleUpdatePackagingSubType":
+		{
+			"RefID": "ArticleUpdateFormfields"
+		},
+		"ArticleUpdatePackagingContent":
+		{
+			"RefID": "ArticleUpdateFormfields"
+		},
+		"ArticleUpdatePackagingMark":
+		{
+			"RefID": "ArticleUpdateFormfields"
+		},
+		"ArticleUpdateQuantity":
+		{
+			"RefID": "ArticleUpdateFormfields"
+		},
+		"ArticleUpdateStamping":
+		{
+			"RefID": "ArticleUpdateFormfields"
+		},
+		"ArticleUpdateRemark1":
+		{
+			"RefID": "ArticleUpdateFormfields"
+		},
+		"ArticleUpdateRemark2":
+		{
+			"RefID": "ArticleUpdateFormfields"
+		},
+		"ArticleUpdateRemark3":
+		{
+			"RefID": "ArticleUpdateFormfields"
+		},
+		"ArticleUpdateRemark4":
+		{
+			"RefID": "ArticleUpdateFormfields"
+		},
+		"ArticleUpdateSubmit":
+		{
+			"RefID": "Root"
+		}
+	},
+	"ArticleSearch":
+	{
+		"ArticleSearchFormfields":
+		{
+			"RefID": "Root"
+		},
+		"ArticleSearchReceiver":
+		{
+			"RefID": "ArticleSearchFormfields"
+		},
+		"ArticleSearchDateFrom":
+		{
+			"RefID": "ArticleSearchFormfields"
+		},
+		"ArticleSearchDateTo":
+		{
+			"RefID": "ArticleSearchFormfields"
+		},
+		"ArticleSearchResultListConnector":
+		{
+			"RefID": "Root"
+		},
+		"ArticleSearchResultList":
+		{
+			"RefID": "ArticleSearchResultListConnector"
+		},
+		"ArticleSearchSubmit":
+		{
+			"RefID": "Root"
+		}
+	},
+	"ShipmentAssignment":
+	{
+		"ShipmentAssignmentTabContainer":
+		{
+			"RefID": "Root"
+		},
+		"ShipmentAssignmentSourceListConnector":
+		{
+			"RefID": "ShipmentAssignmentTabContainer",
+			"ElementID": "TabShipmentAssignmentAssignment"
+		},
+		"ShipmentAssignmentSourceList":
+		{
+			"RefID": "ShipmentAssignmentSourceListConnector"
+		},
+		"ShipmentAssignmentSelect":
+		{
+			"RefID": "ShipmentAssignmentTabContainer",
+			"ElementID": "TabShipmentAssignmentAssignment"
+		},
+		"ShipmentAssignmentDestinationList":
+		{
+			"RefID": "ShipmentAssignmentTabContainer",
+			"ElementID": "TabShipmentAssignmentAssignment"
+		},
+		"ShipmentAssignmentOrder":
+		{
+			"RefID": "ShipmentAssignmentTabContainer",
+			"ElementID": "TabShipmentAssignmentAssignment"
+		},
+		"ShipmentAssignmentDeselect":
+		{
+			"RefID": "ShipmentAssignmentTabContainer",
+			"ElementID": "TabShipmentAssignmentAssignment"
+		},
+		"ShipmentAssignmentReset":
+		{
+			"RefID": "ShipmentAssignmentTabContainer",
+			"ElementID": "TabShipmentAssignmentAssignment"
+		},
+		"ShipmentAssignmentConfirmationListConnector":
+		{
+			"RefID": "ShipmentAssignmentTabContainer",
+			"ElementID": "TabShipmentAssignmentConfirmation"
+		},
+		"ShipmentAssignmentConfirmationList":
+		{
+			"RefID": "ShipmentAssignmentConfirmationListConnector"
+		}
+	},
+	"ShipmentHistory":
+	{
+		"ShipmentHistoryTabContainer":
+		{
+			"RefID": "Root"
+		},
+		"ShipmentHistoryReceiverFormfields":
+		{
+			"RefID": "ShipmentHistoryTabContainer",
+			"ElementID": "TabShipmentHistoryReceiver"
+		},
+		"ShipmentHistoryReceiverReceiver":
+		{
+			"RefID": "ShipmentHistoryReceiverFormfields"
+		},
+		"ShipmentHistoryReceiverSubmit":
+		{
+			"RefID": "ShipmentHistoryTabContainer",
+			"ElementID": "TabShipmentHistoryReceiver"
+		},
+		"ShipmentHistoryShipmentFormfields":
+		{
+			"RefID": "ShipmentHistoryTabContainer",
+			"ElementID": "TabShipmentHistoryShipment"
+		},
+		"ShipmentHistoryShipmentID":
+		{
+			"RefID": "ShipmentHistoryShipmentFormfields"
+		},
+		"ShipmentHistoryShipmentSubmit":
+		{
+			"RefID": "ShipmentHistoryTabContainer",
+			"ElementID": "TabShipmentHistoryShipment"
+		},
+		"ShipmentHistoryReceiverPhoneFormfields":
+		{
+			"RefID": "ShipmentHistoryTabContainer",
+			"ElementID": "TabShipmentHistoryReceiverPhone"
+		},
+		"ShipmentHistoryReceiverPhoneNr":
+		{
+			"RefID": "ShipmentHistoryReceiverPhoneFormfields"
+		},
+		"ShipmentHistoryReceiverListConnector":
+		{
+			"RefID": "ShipmentHistoryTabContainer",
+			"ElementID": "TabShipmentHistoryReceiver"
+		},
+		"ShipmentHistoryReceiverList":
+		{
+			"RefID": "ShipmentHistoryReceiverListConnector"
+		},
+		"ShipmentHistoryShipmentListConnector":
+		{
+			"RefID": "ShipmentHistoryTabContainer",
+			"ElementID": "TabShipmentHistoryShipment"
+		},
+		"ShipmentHistoryShipmentList":
+		{
+			"RefID": "ShipmentHistoryShipmentListConnector"
+		},
+		"ShipmentHistoryReceiverPhoneListConnector":
+		{
+			"RefID": "ShipmentHistoryTabContainer",
+			"ElementID": "TabShipmentHistoryReceiverPhone"
+		},
+		"ShipmentHistoryReceiverPhoneList":
+		{
+			"RefID": "ShipmentHistoryReceiverPhoneListConnector"
+		}
+	},
+	"ShipmentDetail":
+	{
+		"ShipmentDetailFormfieldsConnector":
+		{
+			"RefID": "Root"
+		},
+
+		"ShipmentDetailFormfields":
+		{
+			"RefID": "ShipmentDetailFormfieldsConnector"
+		},
+		"ShipmentDetailShipmentID":
+		{
+			"RefID": "ShipmentDetailFormfields"
+		},
+		"ShipmentDetailComment":
+		{
+			"RefID": "ShipmentDetailFormfields"
+		},
+		"ShipmentDetailListConnector":
+		{
+			"RefID": "Root"
+		},
+		"ShipmentDetailList":
+		{
+			"RefID": "ShipmentDetailListConnector"
+		}
+	}
+}

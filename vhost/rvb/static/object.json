@@ -1,0 +1,2330 @@
+{
+	"ShipmentHistoryTabContainer":
+	{
+		"Type": "TabContainer",
+		"Attributes":
+		{
+			"StyleActive": "sysTabActive",
+			"StyleInactive": "sysTabInactive",
+			"PositionTop": 10,
+			"PositionLeft": 270,
+			"Tabs":
+			{
+				"TabShipmentHistoryReceiver":
+				{
+					"Attributes":
+					{
+						"Default": true,
+						"Width": 130,
+						"TextID": "TXT.TAB.ARTICLESEARCH.RECEIVER"
+					}
+				},
+				"TabShipmentHistoryShipment":
+				{
+					"Attributes":
+					{
+						"Default": false,
+						"Width": 130,
+						"TextID": "TXT.TAB.ARTICLESEARCH.SHIPMENT"
+					}
+				},
+				"TabShipmentHistoryReceiverPhone":
+				{
+					"Attributes":
+					{
+						"Default": false,
+						"Width": 220,
+						"TextID": "TXT.TAB.ARTICLESEARCH.RECEIVERPHONE"
+					}
+				}
+			}
+		}
+	},
+
+	"ContactNewTabContainer":
+	{
+		"Type": "TabContainer",
+		"Attributes":
+		{
+			"StyleActive": "sysTabActive",
+			"StyleInactive": "sysTabInactive",
+			"PositionTop": 10,
+			"PositionLeft": 270,
+			"Tabs":
+			{
+				"TabContactNewAddressData":
+				{
+					"Attributes":
+					{
+						"Default": true,
+						"Width": 130,
+						"TextID": "TXT.TAB.CONTACTNEW.ADDRESS"
+					}
+				},
+				"TabContactNewContactData":
+				{
+					"Attributes":
+					{
+						"Default": false,
+						"Width": 130,
+						"TextID": "TXT.TAB.CONTACTNEW.CONTACT"
+					}
+				}
+			}
+		}
+	},
+
+	"ContactUpdateTabContainer":
+	{
+		"Type": "TabContainer",
+		"Attributes":
+		{
+			"StyleActive": "sysTabActive",
+			"StyleInactive": "sysTabInactive",
+			"PositionTop": 10,
+			"PositionLeft": 270,
+			"Tabs":
+			{
+				"TabContactUpdateAddressData":
+				{
+					"Attributes":
+					{
+						"Default": true,
+						"Width": 130,
+						"TextID": "TXT.TAB.CONTACTNEW.ADDRESS"
+					}
+				},
+				"TabContactUpdateContactData":
+				{
+					"Attributes":
+					{
+						"Default": false,
+						"Width": 130,
+						"TextID": "TXT.TAB.CONTACTNEW.CONTACT"
+					}
+				}
+			}
+		}
+	},
+
+	"ArticleNewTabContainer":
+	{
+		"Type": "TabContainer",
+		"Attributes":
+		{
+			"StyleActive": "sysTabActive",
+			"StyleInactive": "sysTabInactive",
+			"PositionTop": 10,
+			"PositionLeft": 270,
+			"Tabs":
+			{
+				"TabArticleNewPackaging":
+				{
+					"Attributes":
+					{
+						"Default": true,
+						"Width": 130,
+						"TextID": "TXT.TAB.ARTICLENEW.PACKAGING"
+					}
+				},
+				"TabArticleNewRemark":
+				{
+					"Attributes":
+					{
+						"Default": false,
+						"Width": 130,
+						"TextID": "TXT.TAB.ARTICLENEW.REMARK"
+					}
+				},
+				"TabArticleNewOverview":
+				{
+					"Attributes":
+					{
+						"Default": false,
+						"Width": 130,
+						"TextID": "TXT.TAB.ARTICLENEW.SELECTED"
+					}
+				}
+			}
+		}
+	},
+
+	"ShipmentAssignmentTabContainer":
+	{
+		"Type": "TabContainer",
+		"Attributes":
+		{
+			"StyleActive": "sysTabActive",
+			"StyleInactive": "sysTabInactive",
+			"PositionTop": 10,
+			"PositionLeft": 270,
+			"Tabs":
+			{
+				"TabShipmentAssignmentAssignment":
+				{
+					"Attributes":
+					{
+						"Default": true,
+						"Width": 130,
+						"TextID": "TXT.TAB.SHIPMENTASSIGNMENT.ASSIGNMENT"
+					}
+				},
+				"TabShipmentAssignmentConfirmation":
+				{
+					"Attributes":
+					{
+						"Default": false,
+						"Width": 130,
+						"TextID": "TXT.TAB.SHIPMENTASSIGNMENT.CONFIRMATION"
+					}
+				}
+			}
+		}
+	},
+
+	"ContactNewFormfieldsAddress":
+	{
+		"Type": "FormFieldList",
+		"Style": "DefaultFormList"
+	},
+
+	"ContactNewName":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "text",
+			"TextID": "TXT.FORMFIELD.CONTACTNEW.NAME",
+			"ValidateRef": "DefaultString",
+			"ValidateNullable": false,
+			"Style": "FormFieldBorder",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40
+		}
+	},
+
+	"ContactNewStreet":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "text",
+			"TextID": "TXT.FORMFIELD.CONTACTNEW.STREET",
+			"ValidateRef": "DefaultString",
+			"ValidateNullable": false,
+			"Style": "FormFieldBorder",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40
+		}
+	},
+
+	"ContactNewZipcode":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "text",
+			"TextID": "TXT.FORMFIELD.CONTACTNEW.ZIPCODE",
+			"ValidateRef": "ZipCode",
+			"ValidateNullable": false,
+			"Style": "FormFieldBorder",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40
+		}
+	},
+
+	"ContactNewCountry":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "text",
+			"TextID": "TXT.FORMFIELD.CONTACTNEW.COUNTRY",
+			"ValidateRef": "Country",
+			"ValidateNullable": false,
+			"Value": "DE",
+			"Style": "FormFieldBorder",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40
+		}
+	},
+
+	"ContactNewFormfieldsContact":
+	{
+		"Type": "FormFieldList",
+		"Style": "DefaultFormList"
+	},
+
+	"ContactNewMailAddress":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "text",
+			"TextID": "TXT.FORMFIELD.CONTACTNEW.MAILADDRESS",
+			"ValidateRef": "MailAddress",
+			"ValidateNullable": true,
+			"Style": "FormFieldBorder",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40
+		}
+	},
+
+	"ContactNewPhone":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "text",
+			"TextID": "TXT.FORMFIELD.CONTACTNEW.PHONE",
+			"ValidateRef": "PhoneNr",
+			"ValidateNullable": true,
+			"Style": "FormFieldBorder",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40
+		}
+	},
+
+	"ContactNewSubmit":
+	{
+		"Type": "Button",
+		"Style": "sysButton",
+		"Attributes":
+		{
+			"PositionTop": 292,
+			"PositionLeft": 270,
+			"TextID": "TXT.FORMFIELD.CONTACTNEW.SUBMIT",
+			"OnClick": "python/SQLMapper.py",
+			"ServiceID": "contact_new",
+			"FormValidate": true,
+			"SwitchScreen": "ContactSearch",
+			"FireEvents": [ "ContactSearch" ],
+			"Notify": {
+				"ID": "CONTACT_NEW",
+				"DisplayHeader": "Kontakt anlegen"
+			}
+		}
+	},
+
+	"ContactUpdateConnectorAddress":
+	{
+		"Type": "ServiceConnector",
+		"Attributes":
+		{
+			"OnEvent":
+			{
+				"Events": [ "ContactEdit" ],
+				"ServiceCall": "python/SQLMapper.py",
+				"ServiceID": "contact_edit"
+			}
+		}
+	},
+
+	"ContactUpdateConnectorContact":
+	{
+		"Type": "ServiceConnector",
+		"Attributes":
+		{
+			"OnEvent":
+			{
+				"Events": [ "ContactEdit" ],
+				"ServiceCall": "python/SQLMapper.py",
+				"ServiceID": "contact_edit"
+			}
+		}
+	},
+
+	"ContactUpdateFormfieldsAddress":
+	{
+		"Type": "FormFieldList",
+		"Style": "FormfieldsReceiverEdit",
+		"Attributes":
+		{
+			"DBPrimaryKeyID": "id"
+		}
+	
+	},
+
+	"ContactUpdateId":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "text",
+			"TextID": "TXT.FORMFIELD.CONTACTUPDATE.ID",
+			"DBColumn": "id",
+			"Disabled": true,
+			"Style": "FormFieldBorder",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40
+		}
+	},
+
+	"ContactUpdateName":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "text",
+			"TextID": "TXT.FORMFIELD.CONTACTNEW.NAME",
+			"DBColumn": "name",
+			"ValidateRef": "DefaultString",
+			"Style": "FormFieldBorder",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40
+		}
+	},
+
+	"ContactUpdateStreet":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "text",
+			"TextID": "TXT.FORMFIELD.CONTACTNEW.STREET",
+			"DBColumn": "street",
+			"ValidateRef": "DefaultString",
+			"Style": "FormFieldBorder",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40
+		}
+	},
+
+	"ContactUpdateZipcode":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "text",
+			"TextID": "TXT.FORMFIELD.CONTACTNEW.ZIPCODE",
+			"DBColumn": "zipcode",
+			"ValidateRef": "ZipCode",
+			"Style": "FormFieldBorder",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40
+		}
+	},
+
+	"ContactUpdateCountry":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "text",
+			"TextID": "TXT.FORMFIELD.CONTACTNEW.COUNTRY",
+			"DBColumn": "country",
+			"ValidateRef": "Country",
+			"Style": "FormFieldBorder",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40
+		}
+	},
+
+	"ContactUpdateFormfieldsContact":
+	{
+		"Type": "FormFieldList",
+		"Style": "FormfieldsReceiverEdit",
+		"Attributes":
+		{
+			"DBPrimaryKeyID": "id"
+		}
+	
+	},
+
+	"ContactUpdateMailAddress":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "text",
+			"TextID": "TXT.FORMFIELD.CONTACTNEW.MAILADDRESS",
+			"DBColumn": "mail_address",
+			"ValidateRef": "MailAddress",
+			"ValidateNullable": true,
+			"Style": "FormFieldBorder",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40
+		}
+	},
+
+	"ContactUpdatePhone":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "text",
+			"TextID": "TXT.FORMFIELD.CONTACTNEW.PHONE",
+			"DBColumn": "phone",
+			"ValidateRef": "PhoneNr",
+			"ValidateNullable": true,
+			"Style": "FormFieldBorder",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40
+		}
+	},
+
+	"ContactUpdateSubmit":
+	{
+		"Type": "Button",
+		"Style": "sysButton",
+		"Attributes":
+		{
+			"PositionTop": 312,
+			"PositionLeft": 270,
+			"TextID": "TXT.FORMFIELD.CONTACTUPDATE.SUBMIT",
+			"FireEvents": [ "ContactUpdate" ],
+			"OnClick": "python/SQLMapper.py",
+			"ServiceID": "contact_update",
+			"FormValidate": true,
+			"DBPrimaryKeyID": "id",
+			"Notify": {
+				"ID": "CONTACT_UPDATE",
+				"DisplayHeader": "Kontakt ändern"
+			}
+		}
+	},
+
+	"ContactSearchFormfields":
+	{
+		"Type": "FormFieldList",
+		"Style": "FormfieldsGlobal"
+	},
+
+	"ContactSearchName":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "text",
+			"TextID": "TXT.FORMFIELD.CONTACTSEARCH.NAME",
+			"ValidateRef": "DefaultString",
+			"ValidateNullable": true,
+			"Style": "FormFieldBorder",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40
+		}
+	},
+
+	"ContactSearchDateFrom":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "text",
+			"TextID": "TXT.FORMFIELD.CONTACTSEARCH.DATEFROM",
+			"ValidateRef": "DefaultDate",
+			"ValidateNullable": true,
+			"Style": "FormFieldBorder",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40
+		}
+	},
+
+	"ContactSearchDateTo":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "text",
+			"TextID": "TXT.FORMFIELD.CONTACTSEARCH.DATETO",
+			"ValidateRef": "DefaultDate",
+			"ValidateNullable": true,
+			"Style": "FormFieldBorder",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40
+		}
+	},
+
+	"ContactSearchSubmit":
+	{
+		"Type": "ButtonInternal",
+		"Style": "sysButton",
+		"Attributes":
+		{
+			"PositionTop": 152,
+			"PositionLeft": 271,
+			"TextID": "TXT.FORMFIELD.CONTACTSEARCH.SUBMIT",
+			"FireEvents": [ "ContactSearch" ],
+			"FormValidate": true,
+			"DstScreen": "ContactSearch",
+			"DstObject": "ContactSearchResultList"
+		}
+	},
+
+	"ContactSearchResultListConnector":
+	{
+		"Type": "ServiceConnector",
+		"Attributes":
+		{
+			"OnEvent":
+			{
+				"Events": [ "InitSystem", "ContactSearch" ],
+				"ServiceCall": "python/SQLMapper.py",
+				"ServiceID": "contact_search"
+			}
+		}
+	},
+
+	"ContactSearchResultList":
+	{
+		"Type": "List",
+		"Style": "sysListGlobalSearchResult",
+		"Attributes":
+		{
+			"RowCount": 25,
+			"Navigation":
+			{
+				"Type":	"Page.Index"
+			},
+			"SrcDataObjects":
+			{
+				"FormfieldList":
+				{
+					"ScreenID": "ContactSearch",
+					"FormListIDs": [
+						"ContactSearchFormfields"
+					]
+				}
+			},
+			"Columns":
+			{
+				"DBPrimaryKeyID":
+				{
+					"DBPrimaryKey": true,
+					"DBPrimaryKeyID": "id",
+					"visible": false
+				},
+				"name":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.CONTACTSEARCH.NAME",
+					"Width": 200,
+					"sortable": true
+				},
+				"street":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.CONTACTSEARCH.STREET",
+					"Width": 200,
+					"sortable": true
+				},
+				"zipcode":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.CONTACTSEARCH.ZIPCODE",
+					"Width": 120,
+					"sortable": true
+				},
+				"country":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.CONTACTSEARCH.COUNTRY",
+					"Width": 40,
+					"sortable": true
+				},
+				"phone":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.CONTACTSEARCH.PHONE",
+					"Width": 250,
+					"sortable": true
+				}
+
+			},
+			"ContextMenuItems": {
+				"Edit": {
+					"TextID": "TXT.CONTEXTMENU.EDIT",
+					"Icon": "Edit",
+					"DstScreenID": "ContactUpdate",
+					"FireEvents": [ "ContactEdit" ]
+				},
+				"Delete": {
+					"TextID": "TXT.CONTEXTMENU.DELETE",
+					"Icon": "Delete",
+					"ServiceURL": "python/SQLMapper.py",
+					"ServiceID": "contact_delete",
+					"Notify": {
+						"ID": "CONTACT_DELETE",
+						"DisplayHeader": "Kontakt löschen",
+						"OnSuccess": {
+							"FireEvents": [ "ContactSearch" ]
+						}
+					}
+				}
+			}
+
+		}
+	},
+
+	"ArticleNewFormfieldsPackaging":
+	{
+		"Type": "FormFieldList",
+		"Style": "FormfieldsArticleNew"
+	},
+
+	"ArticleNewReceiver":
+	{
+		"Type": "FormField",
+		"Attributes": {
+		    "Type": "dynpulldown",
+		    "TextID": "TXT.FORMFIELD.ARTICLENEW.RECEIVER",
+		    "Style": "FormFieldBorderPulldown",
+		    "StyleOnFocus": "FormFieldBorderOnFocus",
+		    "ServiceURL": "python/DynPulldown.py",
+		    "ServiceID": "dynpd_article_new_receiver",
+		    "Height": 40
+		}
+	},
+
+	"ArticleNewPackagingType":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "pulldown",
+			"TextID": "TXT.FORMFIELD.ARTICLENEW.PACKAGINGTYPE",
+			"Style": "FormFieldBorderPulldown",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"Height": 40,
+			"Options": {
+				"FP":
+				{
+					"TextID": "TXT.PULLDOWN.ARTICLE.PALETTETYPE.FP",
+					"Value": "FP"
+				},
+				"KT":
+				{
+					"TextID": "TXT.PULLDOWN.ARTICLE.PALETTETYPE.KT",
+					"Value": "KT"
+				},
+				"EP":
+				{
+					"TextID": "TXT.PULLDOWN.ARTICLE.PALETTETYPE.EP",
+					"Value": "EP"
+				},
+				"HP":
+				{
+					"TextID": "TXT.PULLDOWN.ARTICLE.PALETTETYPE.HP",
+					"Value": "HP"
+				},
+				"KI":
+				{
+					"TextID": "TXT.PULLDOWN.ARTICLE.PALETTETYPE.KI",
+					"Value": "KI"
+				},
+				"CP":
+				{
+					"TextID": "TXT.PULLDOWN.ARTICLE.PALETTETYPE.CP",
+					"Value": "CP"
+				},
+				"DD":
+				{
+					"TextID": "TXT.PULLDOWN.ARTICLE.PALETTETYPE.DD",
+					"Value": "DD"
+				},
+				"IP":
+				{
+					"TextID": "TXT.PULLDOWN.ARTICLE.PALETTETYPE.IP",
+					"Value": "IP"
+				}
+			}
+		}
+	},
+
+	"ArticleNewPackagingSubType":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "pulldown",
+			"TextID": "TXT.FORMFIELD.ARTICLENEW.PACKAGINGSUBTYPE",
+			"Style": "FormFieldBorderPulldown",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40,
+			"Options": {
+				"FL":
+				{
+					"TextID": "TXT.PULLDOWN.ARTICLE.PALETTESUBTYPE.FL",
+					"Value": "FL"
+				}
+			}
+		}
+	},
+
+	"ArticleNewPackagingContent":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "text",
+			"TextID": "TXT.FORMFIELD.ARTICLENEW.PACKAGINGCONTENT",
+			"ValidateRef": "DefaultString",
+			"Style": "FormFieldBorder",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40
+		}
+	},
+
+	"ArticleNewPackagingMark":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "text",
+			"TextID": "TXT.FORMFIELD.ARTICLENEW.PACKAGINGMARK",
+			"ValidateRef": "DefaultString",
+			"ValidateNullable": true,
+			"Style": "FormFieldBorder",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40
+		}
+	},
+
+	"ArticleNewQuantity":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "text",
+			"TextID": "TXT.FORMFIELD.ARTICLENEW.QUANTITY",
+			"ValidateRef": "Quantity",
+			"Style": "FormFieldBorder",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40
+		}
+	},
+
+	"ArticleNewStamping":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "text",
+			"TextID": "TXT.FORMFIELD.ARTICLENEW.STAMPING",
+			"ValidateRef": "DefaultString",
+			"ValidateNullable": true,
+			"Style": "FormFieldBorder",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40
+		}
+	},
+
+	"ArticleNewFormfieldsRemark":
+	{
+		"Type": "FormFieldList",
+		"Style": "FormfieldsArticleNew"
+	},
+
+	"ArticleNewRemark1":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "textarea",
+			"TextID": "TXT.FORMFIELD.ARTICLENEW.REMARK1",
+			"ValidateRef": "DefaultString",
+			"ValidateNullable": true,
+			"Style": "FormFieldBorderTextarea",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 64
+		}
+	},
+
+	"ArticleNewRemark2":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "textarea",
+			"TextID": "TXT.FORMFIELD.ARTICLENEW.REMARK2",
+			"ValidateRef": "DefaultString",
+			"ValidateNullable": true,
+			"Style": "FormFieldBorderTextarea",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 64
+		}
+	},
+
+	"ArticleNewRemark3":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "textarea",
+			"TextID": "TXT.FORMFIELD.ARTICLENEW.REMARK3",
+			"ValidateRef": "DefaultString",
+			"ValidateNullable": true,
+			"Style": "FormFieldBorderTextarea",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 64
+		}
+	},
+
+	"ArticleNewRemark4":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "textarea",
+			"TextID": "TXT.FORMFIELD.ARTICLENEW.REMARK4",
+			"ValidateRef": "DefaultString",
+			"ValidateNullable": true,
+			"Style": "FormFieldBorderTextarea",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 64
+		}
+	},
+
+	"ArticleNewFormfieldsDummy":
+	{
+		"Type": "FormFieldList",
+		"Style": "FormfieldsArticleNew"
+	},
+
+	"ArticleNewListConnector":
+	{
+		"Type": "ServiceConnector",
+		"Attributes":
+		{
+			"OnEvent":
+			{
+				"Events": [ "InitSystem", "ArticleNew" ],
+				"ServiceCall": "python/SQLMapper.py",
+				"ServiceID": "article_selected"
+			}
+		}
+	},
+
+	"ArticleNewList":
+	{
+		"Type": "List",
+		"Style": "sysListArticleNew",
+		"Attributes":
+		{
+			"RowCount": 40,
+			"Navigation":
+			{
+				"Type":	"Page.Index"
+			},
+			"Columns":
+			{
+				"DBPrimaryKeyID":
+				{
+					"DBPrimaryKey": true,
+					"DBPrimaryKeyID": "id",
+					"visible": false
+				},
+				"created_f":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.ARTICLESEARCH.CREATED",
+					"Width": 140,
+					"sortable": true
+				},
+				"receiver":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.ARTICLESEARCH.RECEIVER",
+					"Width": 200,
+					"sortable": true
+				},
+				"quantity":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.ARTICLESEARCH.QUANTITY",
+					"Width": 60,
+					"sortable": true
+				},
+				"packaging_content":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.ARTICLESEARCH.PACKAGINGCONTENT",
+					"Width": 200,
+					"sortable": true
+				},
+				"packaging_type":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.ARTICLENEW.PACKAGINGTYPE",
+					"Width": 200,
+					"sortable": true
+				},
+				"packaging_subtype":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.ARTICLENEW.PACKAGINGSUBTYPE",
+					"Width": 200,
+					"sortable": true
+				},
+				"remark_1":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.ARTICLENEW.REMARK1",
+					"Width": 400,
+					"sortable": true
+				}
+			},
+			"ContextMenuItems": {
+				"Edit": {
+					"TextID": "TXT.CONTEXTMENU.EDIT",
+					"Icon": "Edit",
+					"DstScreenID": "ArticleUpdate",
+					"FireEvents": [ "ArticleEdit" ]
+				}
+			}
+		}
+	},
+
+	"ArticleNewSubmit":
+	{
+		"Type": "Button",
+		"Style": "sysButtonWide",
+		"Attributes":
+		{
+			"PositionTop": 904,
+			"PositionLeft": 270,
+			"TextID": "TXT.FORMFIELD.ARTICLENEW.SUBMIT",
+			"OnClick": "python/SQLMapper.py",
+			"ServiceID": "article_new",
+			"FormValidate": true,
+			"SwitchScreen": "ArticleNew",
+			"FireEvents": [ "ArticleNew" ],
+			"Notify": {
+				"ID": "ARTICLE_NEW",
+				"DisplayHeader": "Ware aufnehmen"
+			}
+		}
+	},
+
+	"ArticleUpdateConnector":
+	{
+		"Type": "ServiceConnector",
+		"Attributes":
+		{
+			"OnEvent":
+			{
+				"Events": [ "ArticleEdit" ],
+				"ServiceCall": "python/SQLMapper.py",
+				"ServiceID": "article_edit"
+			}
+		}
+	},
+
+	"ArticleUpdateFormfields":
+	{
+		"Type": "FormFieldList",
+		"Style": "FormfieldsArticleUpdate",
+		"Attributes": {
+			"DBPrimaryKeyID": "id"
+		}
+	},
+
+	"ArticleUpdateId":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "text",
+			"TextID": "TXT.FORMFIELD.ARTICLEUPDATE.ID",
+			"DBColumn": "id",
+			"Disabled": true,
+			"Style": "FormFieldBorder",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40
+		}
+	},
+
+	"ArticleUpdateReceiver":
+	{
+		"Type": "FormField",
+		"Attributes": {
+		    "Type": "dynpulldown",
+		    "TextID": "TXT.FORMFIELD.ARTICLENEW.RECEIVER",
+		    "DBColumn": "receiver_id",
+		    "Style": "FormFieldBorderPulldown",
+		    "StyleOnFocus": "FormFieldBorderOnFocus",
+		    "ServiceURL": "python/DynPulldown.py",
+		    "ServiceID": "dynpd_article_new_receiver",
+		    "Height": 40
+		}
+	},
+
+	"ArticleUpdatePackagingType":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "pulldown",
+			"TextID": "TXT.FORMFIELD.ARTICLENEW.PACKAGINGTYPE",
+			"DBColumn": "packaging_type",
+			"Style": "FormFieldBorderPulldown",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"Height": 40,
+			"Options": {
+				"FP":
+				{
+					"TextID": "TXT.PULLDOWN.ARTICLE.PALETTETYPE.FP",
+					"Value": "FP"
+				},
+				"KT":
+				{
+					"TextID": "TXT.PULLDOWN.ARTICLE.PALETTETYPE.KT",
+					"Value": "KT"
+				},
+				"EP":
+				{
+					"TextID": "TXT.PULLDOWN.ARTICLE.PALETTETYPE.EP",
+					"Value": "EP"
+				},
+				"HP":
+				{
+					"TextID": "TXT.PULLDOWN.ARTICLE.PALETTETYPE.HP",
+					"Value": "HP"
+				},
+				"KI":
+				{
+					"TextID": "TXT.PULLDOWN.ARTICLE.PALETTETYPE.KI",
+					"Value": "KI"
+				},
+				"CP":
+				{
+					"TextID": "TXT.PULLDOWN.ARTICLE.PALETTETYPE.CP",
+					"Value": "CP"
+				},
+				"DD":
+				{
+					"TextID": "TXT.PULLDOWN.ARTICLE.PALETTETYPE.DD",
+					"Value": "DD"
+				},
+				"IP":
+				{
+					"TextID": "TXT.PULLDOWN.ARTICLE.PALETTETYPE.IP",
+					"Value": "IP"
+				}
+			}
+		}
+	},
+
+	"ArticleUpdatePackagingSubType":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "pulldown",
+			"TextID": "TXT.FORMFIELD.ARTICLENEW.PACKAGINGSUBTYPE",
+			"DBColumn": "packaging_subtype",
+			"Style": "FormFieldBorderPulldown",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40,
+			"Options": {
+				"FL":
+				{
+					"TextID": "TXT.PULLDOWN.ARTICLE.PALETTESUBTYPE.FL",
+					"Value": "FL"
+				}
+			}
+		}
+	},
+
+	"ArticleUpdatePackagingContent":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "text",
+			"TextID": "TXT.FORMFIELD.ARTICLENEW.PACKAGINGCONTENT",
+			"DBColumn": "packaging_content",
+			"ValidateRef": "DefaultString",
+			"Style": "FormFieldBorder",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40
+		}
+	},
+
+	"ArticleUpdatePackagingMark":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "text",
+			"TextID": "TXT.FORMFIELD.ARTICLENEW.PACKAGINGMARK",
+			"DBColumn": "packaging_mark",
+			"ValidateRef": "DefaultString",
+			"ValidateNullable": true,
+			"Style": "FormFieldBorder",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40
+		}
+	},
+
+	"ArticleUpdateQuantity":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "text",
+			"TextID": "TXT.FORMFIELD.ARTICLENEW.QUANTITY",
+			"DBColumn": "quantity",
+			"ValidateRef": "Quantity",
+			"Style": "FormFieldBorder",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40
+		}
+	},
+
+	"ArticleUpdateStamping":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "text",
+			"TextID": "TXT.FORMFIELD.ARTICLENEW.STAMPING",
+			"DBColumn": "stamping",
+			"ValidateRef": "DefaultString",
+			"ValidateNullable": true,
+			"Style": "FormFieldBorder",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40
+		}
+	},
+
+	"ArticleUpdateRemark1":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "textarea",
+			"TextID": "TXT.FORMFIELD.ARTICLENEW.REMARK1",
+			"DBColumn": "remark_1",
+			"ValidateRef": "DefaultString",
+			"ValidateNullable": true,
+			"Style": "FormFieldBorderTextarea",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 64
+		}
+	},
+
+	"ArticleUpdateRemark2":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "textarea",
+			"TextID": "TXT.FORMFIELD.ARTICLENEW.REMARK2",
+			"DBColumn": "remark_2",
+			"ValidateRef": "DefaultString",
+			"ValidateNullable": true,
+			"Style": "FormFieldBorderTextarea",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 64
+		}
+	},
+
+	"ArticleUpdateRemark3":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "textarea",
+			"TextID": "TXT.FORMFIELD.ARTICLENEW.REMARK3",
+			"DBColumn": "remark_3",
+			"ValidateRef": "DefaultString",
+			"ValidateNullable": true,
+			"Style": "FormFieldBorderTextarea",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 64
+		}
+	},
+
+	"ArticleUpdateRemark4":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "textarea",
+			"TextID": "TXT.FORMFIELD.ARTICLENEW.REMARK4",
+			"DBColumn": "remark_4",
+			"ValidateRef": "DefaultString",
+			"ValidateNullable": true,
+			"Style": "FormFieldBorderTextarea",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 64
+		}
+	},
+
+	"ArticleUpdateSubmit":
+	{
+		"Type": "Button",
+		"Style": "sysButtonWide",
+		"Attributes":
+		{
+			"PositionTop": 902,
+			"PositionLeft": 272,
+			"TextID": "TXT.FORMFIELD.ARTICLEUPDATE.SUBMIT",
+			"FireEvents": [ "ArticleUpdate" ],
+			"OnClick": "python/SQLMapper.py",
+			"ServiceID": "article_update",
+			"FormValidate": true,
+			"DBPrimaryKeyID": "id",
+			"Notify": {
+				"ID": "ARTICLE_UPDATE",
+				"DisplayHeader": "Ware ändern"
+			}
+		}
+	},
+
+	"ArticleSearchFormfields":
+	{
+		"Type": "FormFieldList",
+		"Style": "FormfieldsGlobal"
+	},
+
+	"ArticleSearchReceiver":
+	{
+		"Type": "FormField",
+		"Attributes": {
+		    "Type": "dynpulldown",
+		    "TextID": "TXT.FORMFIELD.ARTICLENEW.RECEIVER",
+		    "Style": "FormFieldBorderPulldown",
+		    "StyleOnFocus": "FormFieldBorderOnFocus",
+		    "ServiceURL": "python/DynPulldown.py",
+		    "ServiceID": "dynpd_article_new_receiver",
+		    "Height": 40,
+		    "AddNoneItem": true
+		}
+	},
+
+	"ArticleSearchDateFrom":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "text",
+			"TextID": "TXT.FORMFIELD.ARTICLESEARCH.DATEFROM",
+			"ValidateRef": "DefaultDate",
+			"ValidateNullable": true,
+			"Style": "FormFieldBorder",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40
+		}
+	},
+
+	"ArticleSearchDateTo":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "text",
+			"TextID": "TXT.FORMFIELD.ARTICLESEARCH.DATETO",
+			"ValidateRef": "DefaultDate",
+			"ValidateNullable": true,
+			"Style": "FormFieldBorder",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40
+		}
+	},
+
+	"ArticleSearchSubmit":
+	{
+		"Type": "ButtonInternal",
+		"Style": "sysButton",
+		"Attributes":
+		{
+			"PositionTop": 152,
+			"PositionLeft": 272,
+			"TextID": "TXT.FORMFIELD.ARTICLESEARCH.SUBMIT",
+			"FireEvents": [ "ArticleSearch" ],
+			"FormValidate": true,
+			"DstScreen": "ArticleSearch",
+			"DstObject": "ArticleSearchResultList"
+		}
+	},
+
+	"ArticleSearchResultListConnector":
+	{
+		"Type": "ServiceConnector",
+		"Attributes":
+		{
+			"OnEvent":
+			{
+				"Events": [ "InitSystem", "ArticleSearch" ],
+				"ServiceCall": "python/SQLMapper.py",
+				"ServiceID": "article_search"
+			}
+		}
+	},
+
+	"ArticleSearchResultList":
+	{
+		"Type": "List",
+		"Style": "sysListGlobalSearchResult",
+		"Attributes":
+		{
+			"RowCount": 25,
+			"Navigation":
+			{
+				"Type":	"Page.Index"
+			},
+			"SrcDataObjects":
+			{
+				"FormfieldList":
+				{
+					"ScreenID": "ArticleSearch",
+					"FormListIDs": [
+						"ArticleSearchFormfields"
+					]
+				}
+			},
+			"Columns":
+			{
+				"DBPrimaryKeyID":
+				{
+					"DBPrimaryKey": true,
+					"DBPrimaryKeyID": "id",
+					"visible": false
+				},
+				"created_f":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.ARTICLESEARCH.CREATED",
+					"Width": 140,
+					"sortable": true
+				},
+				"receiver":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.ARTICLESEARCH.RECEIVER",
+					"Width": 200,
+					"sortable": true
+				},
+				"quantity":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.ARTICLESEARCH.QUANTITY",
+					"Width": 60,
+					"sortable": true
+				},
+				"packaging_content":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.ARTICLESEARCH.PACKAGINGCONTENT",
+					"Width": 200,
+					"sortable": true
+				},
+				"status":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.ARTICLESEARCH.STATUS",
+					"Width": 210,
+					"sortable": true
+				}
+
+			},
+			"ContextMenuItems": {
+				"Edit": {
+					"TextID": "TXT.CONTEXTMENU.EDIT",
+					"Icon": "Edit",
+					"DstScreenID": "ArticleUpdate",
+					"FireEvents": [ "ArticleEdit" ]
+				},
+				"Delete": {
+					"TextID": "TXT.CONTEXTMENU.DELETE",
+					"Icon": "Delete",
+					"ServiceURL": "python/SQLMapper.py",
+					"ServiceID": "article_delete",
+					"Notify": {
+						"ID": "ARTICLE_DELETE",
+						"DisplayHeader": "Ware löschen",
+						"OnSuccess": {
+							"FireEvents": [ "ArticleSearch" ]
+						}
+					}
+				}
+
+			}
+		}
+	},
+
+	"ShipmentAssignmentSourceListConnector":
+	{
+		"Type": "ServiceConnector",
+		"Attributes": {
+			"OnEvent": {
+				"Events": [ "ClickShipmentAssignment" ],
+				"ServiceCall": "python/SQLMapper.py",
+				"ServiceID": "shipment_assign_source"
+			}
+		}
+	},
+
+	"ShipmentAssignmentSourceList":
+	{
+		"Type": "List",
+		"Style": "sysListShipmentAssignmentSource",
+		"Attributes":
+		{
+			"RowCount": 11,
+			"Navigation":
+			{
+				"Type":	"Page.Index"
+			},
+			"SrcDataObjects":
+			{
+			},
+			"Columns":
+			{
+				"DBPrimaryKeyID":
+				{
+					"DBPrimaryKey": true,
+					"DBPrimaryKeyID": "id",
+					"visible": false
+				},
+				"quantity":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.QUANTITY",
+					"Width": 80,
+					"sortable": true
+				},
+				"packaging_type":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.PACKAGINGTYPE",
+					"Width": 140,
+					"sortable": true
+				},
+				"packaging_content":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.PACKAGINGCONTENT",
+					"Width": 140,
+					"sortable": true
+				},
+				"receiver":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.RECEIVER",
+					"Width": 360,
+					"sortable": true
+				},
+				"select":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.SELECT",
+					"Width": 85,
+					"sortable": false,
+					"FormFieldAttributes": {
+						"Type": "pulldown",
+						"Style": "FormFieldBorderTiny",
+						"StyleOnFocus": "FormFieldBorderOnFocus",
+						"StyleValidateOk": "FormFieldBorderValidateOk",
+						"StyleValidateFail": "FormFieldBorderValidateFail",
+						"Height": 20,
+						"Options": {
+							"yes": {
+								"TextID": "TXT.FORMFIELD.GLOBAL.YES",
+								"Value": true,
+								"Default": true
+							},
+							"no": {
+								"TextID": "TXT.FORMFIELD.GLOBAL.NO",
+								"Value": false
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+
+	"ShipmentAssignmentSelect":
+	{
+		"Type": "ButtonInternal",
+		"Style": "sysButton",
+		"Attributes":
+		{
+			"PositionTop": 346,
+			"PositionLeft": 0,
+			"TextID": "TXT.BUTTON.SHIPMENTASSIGN.ASSIGN",
+			"ValidateForm": false,
+			"SrcScreen": "ShipmentAssignment",
+			"SrcObject": "ShipmentAssignmentSourceList",
+			"SrcType": "List",
+			"SrcCriterionColumn": "select",
+			"DstScreen": "ShipmentAssignment",
+			"DstObject": "ShipmentAssignmentDestinationList",
+			"DstType": "List",
+			"Action": "copy"
+		}
+	},
+
+	"ShipmentAssignmentDestinationList":
+	{
+		"Type": "List",
+		"Style": "sysListShipmentAssignmentDestination",
+		"Attributes":
+		{
+			"RowCount": 14,
+			"Navigation":
+			{
+				"Type":	"Page.Index"
+			},
+			"Columns":
+			{
+				"quantity":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.QUANTITY",
+					"Width": 80,
+					"sortable": true
+				},
+				"packaging_type":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.PACKAGINGTYPE",
+					"Width": 140,
+					"sortable": true
+				},
+				"packaging_content":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.PACKAGINGCONTENT",
+					"Width": 140,
+					"sortable": true
+				},
+				"receiver":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.RECEIVER",
+					"Width": 360,
+					"sortable": true
+				},
+				"deselect":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.DESELECT",
+					"Width": 80,
+					"sortable": false,
+					"FormFieldAttributes": {
+						"Type": "pulldown",
+						"Style": "FormFieldBorderTiny",
+						"StyleOnFocus": "FormFieldBorderOnFocus",
+						"StyleValidateOk": "FormFieldBorderValidateOk",
+						"StyleValidateFail": "FormFieldBorderValidateFail",
+						"Height": 20,
+						"Options": {
+							"yes": {
+								"TextID": "TXT.FORMFIELD.GLOBAL.YES",
+								"Value": true
+							},
+							"no": {
+								"TextID": "TXT.FORMFIELD.GLOBAL.NO",
+								"Value": false,
+								"Default": true
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+
+	"ShipmentAssignmentOrder":
+	{
+		"Type": "Button",
+		"Style": "sysButton",
+		"Attributes":
+		{
+			"PositionTop": 810,
+			"PositionLeft": 0,
+			"TextID": "TXT.BUTTON.SHIPMENTASSIGN.ORDER",
+			"FireEvents": [ "ShipmentAssignmentConfirmation" ],
+			"OnClick": "python/ProcessOrder.py",
+			"FormValidate": false,
+			"SwitchScreen": "ShipmentAssignment",
+			"SwitchTabContainer": "ShipmentAssignmentTabContainer",
+			"SwitchTabID": "TabShipmentAssignmentConfirmation",
+			"SrcDataObjects": {
+				"List": {
+					"ID": "ShipmentAssignmentDestinationList"
+				}
+			},
+			"SrcDataListInternal": true,
+			"FireEvents": [ "ClickShipmentAssignment", "ShipmentAssignmentConfirmation" ],
+			"Notify": {
+				"ID": "SHIPMENT_ASSIGNMENT",
+				"DisplayHeader": "Beauftragung aufgeben"
+			},
+			"ServiceResultKeyColumn": "id"
+		}
+	},
+
+	"ShipmentAssignmentDeselect":
+	{
+		"Type": "ButtonInternal",
+		"Style": "sysButton",
+		"Attributes":
+		{
+			"PositionTop": 850,
+			"PositionLeft": 0,
+			"TextID": "TXT.BUTTON.SHIPMENTASSIGN.DESELECT",
+			"Action": "deselect",
+			"ActionAttributes": {
+				"ScreenID": "ShipmentAssignment",
+				"ObjectID": "ShipmentAssignmentDestinationList",
+				"ObjectType": "List",
+				"ConstraintColumn": "deselect",
+				"ConstraintCheckValue": "true"
+			}
+		}
+	},
+
+	"ShipmentAssignmentReset":
+	{
+		"Type": "ButtonInternal",
+		"Style": "sysButton",
+		"Attributes":
+		{
+			"PositionTop": 890,
+			"PositionLeft": 0,
+			"TextID": "TXT.BUTTON.SHIPMENTASSIGN.RESET",
+			"Action": "reset",
+			"ActionAttributes": {
+				"ScreenID": "ShipmentAssignment",
+				"ObjectID": "ShipmentAssignmentDestinationList",
+				"ObjectType": "List"
+			}
+		}
+
+	},
+
+	"ShipmentAssignmentConfirmationListConnector":
+	{
+		"Type": "ServiceConnector",
+		"Attributes": {
+			"OnEvent": {
+				"Events": [ "ShipmentAssignmentConfirmation" ],
+				"ServiceCall": "python/SQLMapper.py",
+				"ServiceID": "shipment_assign_confirm"
+			}
+		}
+	},
+
+	"ShipmentAssignmentConfirmationList":
+	{
+		"Type": "List",
+		"Style": "sysListShipmentAssignmentConfirmation",
+		"Attributes":
+		{
+			"RowCount": 26,
+			"Navigation":
+			{
+				"Type":	"Page.Index"
+			},
+			"SrcDataObjects":
+			{
+				"DBPrimaryKey": {
+					"ScreenID": "ShipmentAssignment"
+				}
+			},
+			"Columns":
+			{
+				"DBPrimaryKeyID":
+				{
+					"DBPrimaryKey": true,
+					"DBPrimaryKeyID": "id",
+					"visible": false
+				},
+				"quantity":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.QUANTITY",
+					"Width": 80,
+					"sortable": true
+				},
+				"packaging_type":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.PACKAGINGTYPE",
+					"Width": 140,
+					"sortable": true
+				},
+				"packaging_content":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.PACKAGINGCONTENT",
+					"Width": 140,
+					"sortable": true
+				},
+				"receiver":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.RECEIVER",
+					"Width": 450,
+					"sortable": true
+				}
+			}
+		}
+	},
+
+	"ShipmentHistoryReceiverFormfields":
+	{
+		"Type": "FormFieldList",
+		"Style": "FormfieldsShipmentHistoryReceiver"
+	},
+
+	"ShipmentHistoryReceiverReceiver":
+	{
+		"Type": "FormField",
+		"Attributes": {
+		    "Type": "dynpulldown",
+		    "TextID": "TXT.FORMFIELD.ARTICLENEW.RECEIVER",
+		    "Style": "FormFieldBorderPulldown",
+		    "StyleOnFocus": "FormFieldBorderOnFocus",
+		    "ServiceURL": "python/DynPulldown.py",
+		    "ServiceID": "dynpd_article_new_receiver",
+		    "Height": 40,
+		    "AddNoneItem": true
+		}
+	},
+
+	"ShipmentHistoryReceiverSubmit":
+	{
+		"Type": "ButtonInternal",
+		"Style": "sysButton",
+		"Attributes":
+		{
+			"PositionTop": 68,
+			"PositionLeft": 2,
+			"TextID": "TXT.FORMFIELD.SHIPMENTHISTORY.RECEIVER.SUBMIT",
+			"FireEvents": [ "ShipmentHistoryReceiverSearch" ],
+			"FormValidate": false,
+			"DstScreen": "ShipmentHistory",
+			"DstObject": "ShipmentHistoryReceiverList"
+		}
+	},
+
+	"ShipmentHistoryShipmentFormfields":
+	{
+		"Type": "FormFieldList",
+		"Style": "FormfieldsShipmentHistoryReceiver"
+	},
+
+	"ShipmentHistoryShipmentID":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "text",
+			"TextID": "TXT.FORMFIELD.SHIPMENTHISTORY.SHIPMENT.ID",
+			"DBColumn": "country",
+			"ValidateRef": "DefaultString",
+			"Style": "FormFieldBorder",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40
+		}
+
+	},
+
+	"ShipmentHistoryShipmentSubmit":
+	{
+		"Type": "ButtonInternal",
+		"Style": "sysButton",
+		"Attributes":
+		{
+			"PositionTop": 68,
+			"PositionLeft": 2,
+			"TextID": "TXT.FORMFIELD.SHIPMENTHISTORY.SHIPMENT.SUBMIT",
+			"FireEvents": [ "ShipmentHistoryShipmentSearch" ],
+			"FormValidate": false,
+			"DstScreen": "ShipmentHistory",
+			"DstObject": "ShipmentHistoryShipmentList"
+		}
+	},
+
+	"ShipmentHistoryReceiverListConnector":
+	{
+		"Type": "ServiceConnector",
+		"Attributes": {
+			"OnEvent": {
+				"Events": [ "InitSystem", "ShipmentHistoryReceiverSearch" ],
+				"ServiceCall": "python/SQLMapper.py",
+				"ServiceID": "shipment_history_receiver"
+			}
+		}
+	},
+
+	"ShipmentHistoryReceiverList":
+	{
+		"Type": "List",
+		"Style": "sysListShipmentHistoryReceiver",
+		"Attributes":
+		{
+			"RowCount": 25,
+			"Navigation":
+			{
+				"Type":	"Page.Index"
+			},
+			"SrcDataObjects":
+			{
+				"FormfieldList":
+				{
+					"ScreenID": "ShipmentHistory",
+					"FormListIDs": [
+						"ShipmentHistoryReceiverFormfields"
+					]
+				}
+			},
+			"Columns":
+			{
+				"DBPrimaryKeyID":
+				{
+					"DBPrimaryKey": true,
+					"DBPrimaryKeyID": "id",
+					"visible": false
+				},
+				"shipment_id":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.HISTORYRECEIVER.SHIPMENTID",
+					"Width": 90,
+					"sortable": true
+				},
+				"quantity":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.QUANTITY",
+					"Width": 60,
+					"sortable": true
+				},
+				"packaging_type":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.PACKAGINGTYPE",
+					"Width": 60,
+					"sortable": true
+				},
+				"packaging_content":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.PACKAGINGCONTENT",
+					"Width": 140,
+					"sortable": true
+				},
+				"receiver":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.RECEIVER",
+					"Width": 280,
+					"sortable": true
+				},
+				"packaging_mark":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.MARK",
+					"Width": 180,
+					"sortable": false
+				}
+			},
+			"ContextMenuItems": {
+				"Edit": {
+					"TextID": "TXT.CONTEXTMENU.DETAIL",
+					"Icon": "Edit",
+					"DstScreenID": "ShipmentDetail",
+					"DstScreenSrcObjFilter": [ "shipment_id" ],
+					"FireEvents": [ "ShipmentDetail" ]
+				}
+			}
+		}
+	},
+
+	"ShipmentHistoryShipmentListConnector":
+	{
+		"Type": "ServiceConnector",
+		"Attributes": {
+			"OnEvent": {
+				"Events": [ "InitSystem", "ShipmentHistoryShipmentSearch" ],
+				"ServiceCall": "python/SQLMapper.py",
+				"ServiceID": "shipment_history_shipment"
+			}
+		}
+	},
+
+	"ShipmentHistoryShipmentList":
+	{
+		"Type": "List",
+		"Style": "sysListShipmentHistoryReceiver",
+		"Attributes":
+		{
+			"RowCount": 25,
+			"Navigation":
+			{
+				"Type":	"Page.Index"
+			},
+			"SrcDataObjects":
+			{
+				"FormfieldList":
+				{
+					"ScreenID": "ShipmentHistory",
+					"FormListIDs": [
+						"ShipmentHistoryShipmentFormfields"
+					]
+				}
+			},
+			"Columns":
+			{
+				"DBPrimaryKeyID":
+				{
+					"DBPrimaryKey": true,
+					"DBPrimaryKeyID": "id",
+					"visible": false
+				},
+				"shipment_id":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.HISTORYRECEIVER.SHIPMENTID",
+					"Width": 90,
+					"sortable": true
+				},
+				"quantity":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.QUANTITY",
+					"Width": 60,
+					"sortable": true
+				},
+				"packaging_type":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.PACKAGINGTYPE",
+					"Width": 60,
+					"sortable": true
+				},
+				"packaging_content":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.PACKAGINGCONTENT",
+					"Width": 140,
+					"sortable": true
+				},
+				"receiver":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.RECEIVER",
+					"Width": 280,
+					"sortable": true
+				},
+				"packaging_mark":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.MARK",
+					"Width": 180,
+					"sortable": false
+				}
+			},
+			"ContextMenuItems": {
+				"Edit": {
+					"TextID": "TXT.CONTEXTMENU.DETAIL",
+					"Icon": "Edit",
+					"DstScreenID": "ShipmentDetail",
+					"DstScreenSrcObjFilter": [ "shipment_id" ],
+					"FireEvents": [ "ShipmentDetail" ]
+				}
+			}
+		}
+	},
+
+	"ShipmentHistoryReceiverPhoneFormfields":
+	{
+		"Type": "FormFieldList",
+		"Style": "FormfieldsShipmentHistoryReceiver"
+	},
+
+	"ShipmentHistoryReceiverPhoneNr":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "text",
+			"TextID": "TXT.FORMFIELD.SHIPMENTHISTORY.RECEIVERPHONE.PHONE",
+			"Disabled": true,
+			"Style": "FormFieldBorder",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40
+		}
+
+	},
+
+	"ShipmentHistoryReceiverPhoneListConnector":
+	{
+		"Type": "ServiceConnector",
+		"Attributes": {
+			"OnEvent": {
+				"Events": [ "ShipmentHistoryPhoneSearch" ],
+				"ServiceCall": "python/SQLMapper.py",
+				"ServiceID": "shipment_history_phone"
+			}
+		}
+	},
+
+	"ShipmentHistoryReceiverPhoneList":
+	{
+		"Type": "List",
+		"Style": "sysListShipmentHistoryReceiver",
+		"Attributes":
+		{
+			"RowCount": 25,
+			"Navigation":
+			{
+				"Type":	"Page.Index"
+			},
+			"SrcDataObjects":
+			{
+				"FormfieldList":
+				{
+					"ScreenID": "ShipmentHistory",
+					"FormListIDs": [
+						"ShipmentHistoryReceiverPhoneFormfields"
+					]
+				}
+			},
+			"Columns":
+			{
+				"DBPrimaryKeyID":
+				{
+					"DBPrimaryKey": true,
+					"DBPrimaryKeyID": "id",
+					"visible": false
+				},
+				"shipment_id":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.HISTORYRECEIVER.SHIPMENTID",
+					"Width": 90,
+					"sortable": true
+				},
+				"quantity":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.QUANTITY",
+					"Width": 60,
+					"sortable": true
+				},
+				"packaging_type":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.PACKAGINGTYPE",
+					"Width": 60,
+					"sortable": true
+				},
+				"packaging_content":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.PACKAGINGCONTENT",
+					"Width": 140,
+					"sortable": true
+				},
+				"receiver":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.RECEIVER",
+					"Width": 280,
+					"sortable": true
+				},
+				"packaging_mark":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.MARK",
+					"Width": 180,
+					"sortable": false
+				}
+			},
+			"ContextMenuItems": {
+				"Edit": {
+					"TextID": "TXT.CONTEXTMENU.DETAIL",
+					"Icon": "Edit",
+					"DstScreenID": "ShipmentDetail",
+					"DstScreenSrcObjFilter": [ "shipment_id" ],
+					"FireEvents": [ "ShipmentDetail" ]
+				}
+			}
+		}
+	},
+
+	"ShipmentDetailFormfieldsConnector":
+	{
+		"Type": "ServiceConnector",
+		"Attributes":
+		{
+			"OnEvent":
+			{
+				"Events": [ "ShipmentDetail" ],
+				"ServiceCall": "python/SQLMapper.py",
+				"ServiceID": "shipment_detail"
+			}
+		}
+	},
+
+
+	"ShipmentDetailFormfields":
+	{
+		"Type": "FormFieldList",
+		"Style": "FormfieldsShipmentDetail",
+		"Attributes": {
+			"SrcDataObjects": {
+				"SourceObject": {
+					"ScreenID": "ShipmentDetail",
+					"FilterColumn": "shipment_id"
+				}
+			}
+		}
+	},
+
+	"ShipmentDetailShipmentID":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "text",
+			"TextID": "TXT.FORMFIELD.SHIPMENTHISTORY.SHIPMENT.ID",
+			"DBColumn": "id",
+			"Disabled": true,
+			"Style": "FormFieldBorder",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 40
+		}
+
+	},
+
+	"ShipmentDetailComment":
+	{
+		"Type": "FormField",
+		"Attributes":
+		{
+			"Type": "textarea",
+			"TextID": "TXT.FORMFIELD.SHIPMENTHISTORY.COMMENT",
+			"DBColumn": "comment",
+			"Disabled": true,
+			"Style": "FormFieldBorderTextarea",
+			"StyleOnFocus": "FormFieldBorderOnFocus",
+			"StyleValidateOk": "FormFieldBorderValidateOk",
+			"StyleValidateFail": "FormFieldBorderValidateFail",
+			"Height": 92
+		}
+	},
+
+	"ShipmentDetailListConnector":
+	{
+		"Type": "ServiceConnector",
+		"Attributes": {
+			"OnEvent": {
+				"Events": [ "ShipmentDetail" ],
+				"ServiceCall": "python/SQLMapper.py",
+				"ServiceID": "shipment_detail_list"
+			}
+		}
+	},
+
+	"ShipmentDetailList":
+	{
+		"Type": "List",
+		"Style": "sysListShipmentDetail",
+		"Attributes":
+		{
+			"RowCount": 22,
+			"Navigation":
+			{
+				"Type":	"Page.Index"
+			},
+			"SrcDataObjects": {
+				"SourceObject": {
+					"ScreenID": "ShipmentDetail",
+					"FilterColumn": "shipment_id"
+				}
+			},
+			"Columns":
+			{
+				"DBPrimaryKeyID":
+				{
+					"DBPrimaryKey": true,
+					"DBPrimaryKeyID": "id",
+					"visible": false
+				},
+				"quantity":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.QUANTITY",
+					"Width": 60,
+					"sortable": true
+				},
+				"packaging_type":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.PACKAGINGTYPE",
+					"Width": 60,
+					"sortable": true
+				},
+				"packaging_content":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.PACKAGINGCONTENT",
+					"Width": 140,
+					"sortable": true
+				},
+				"receiver":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.RECEIVER",
+					"Width": 360,
+					"sortable": true
+				},
+				"packaging_mark":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.MARK",
+					"Width": 100,
+					"sortable": true
+				},
+				"packaging_mark_select":
+				{
+					"HeaderTextID": "TXT.TABLE.HEADER.SHIPMENTASSIGNMENT.MARKSELECT",
+					"Width": 89,
+					"sortable": false,
+					"ButtonInternalAttributes": {
+						"TextID": "TXT.BUTTON.PACKAGINGMARK.EXTERNAL",
+						"Action": "ExternalLink",
+						"ExternalURL": "http://rvb.lan.cb.kw.webcodex.de/testlink?id=",
+						"CheckColumnValueNull": "packaging_mark",
+						"AppendLinkColumn": "packaging_mark"
+					}
+				}
+			}
+		}
+	}
+}

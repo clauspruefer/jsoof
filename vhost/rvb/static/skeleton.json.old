@@ -1,0 +1,440 @@
+{
+
+	"ShipmentInView":
+	{
+		"ShipmentInViewTabContainer":
+		{
+			"RefID": "Root"
+		},
+		"ShipmentInGlobalViewSearchStatusFormfields":
+		{
+			"RefID": "ShipmentInViewTabContainer",
+			"ElementID": "TabShipmentInViewGlobal"
+		},
+		"ShipmentInGlobalViewSearchStatusStatus":
+		{
+			"RefID": "ShipmentInGlobalViewSearchStatusFormfields"
+		},
+		"ShipmentInGlobalViewSearchDateFormfields":
+		{
+			"RefID": "ShipmentInViewTabContainer",
+			"ElementID": "TabShipmentInViewGlobal"
+		},
+		"ShipmentInGlobalViewSearchDateVGPDeliveryFrom":
+		{
+			"RefID": "ShipmentInGlobalViewSearchDateFormfields"
+		},
+		"ShipmentInGlobalViewSearchDateVGPDeliveryTo":
+		{
+			"RefID": "ShipmentInGlobalViewSearchDateFormfields"
+		},
+		"ShipmentInGlobalViewSearchDateIncomingFrom":
+		{
+			"RefID": "ShipmentInGlobalViewSearchDateFormfields"
+		},
+		"ShipmentInGlobalViewSearchDateIncomingTo":
+		{
+			"RefID": "ShipmentInGlobalViewSearchDateFormfields"
+		},
+		"ShipmentInGlobalViewSearchCodeFormfields":
+		{
+			"RefID": "ShipmentInViewTabContainer",
+			"ElementID": "TabShipmentInViewGlobal"
+		},
+		"ShipmentInGlobalViewSearchCodeCode":
+		{
+			"RefID": "ShipmentInGlobalViewSearchCodeFormfields"
+		},
+		"ShipmentInGlobalViewSearchResultListConnector":
+		{
+			"RefID": "ShipmentInViewTabContainer",
+			"ElementID": "TabShipmentInViewGlobal"
+		},
+		"ShipmentInGlobalViewSearchResultList":
+		{
+			"RefID": "ShipmentInGlobalViewSearchResultListConnector"
+		},
+		"ShipmentInGlobalViewSubmit":
+		{
+			"RefID": "ShipmentInViewTabContainer",
+			"ElementID": "TabShipmentInViewGlobal"
+		},
+		"ShipmentInGlobalViewPalettesStatusFormfields":
+		{
+			"RefID": "ShipmentInViewTabContainer",
+			"ElementID": "TabShipmentInViewPalettes"
+		},
+		"ShipmentInGlobalViewPalettesStatusDeliveryStatus":
+		{
+			"RefID": "ShipmentInGlobalViewPalettesStatusFormfields"
+		},
+		"ShipmentInGlobalViewPalettesStatusOutDeliveryStatus":
+		{
+			"RefID": "ShipmentInGlobalViewPalettesStatusFormfields"
+		},
+		"ShipmentInGlobalViewPalettesSSCCFormfields":
+		{
+			"RefID": "ShipmentInViewTabContainer",
+			"ElementID": "TabShipmentInViewPalettes"
+		},
+		"ShipmentInGlobalViewPalettesSSCC":
+		{
+			"RefID": "ShipmentInGlobalViewPalettesSSCCFormfields"
+		},
+		"ShipmentInGlobalViewPalettesSubmit":
+		{
+			"RefID": "ShipmentInViewTabContainer",
+			"ElementID": "TabShipmentInViewPalettes"
+		},
+		"ShipmentInGlobalViewPalettesSearchResultListConnector":
+		{
+			"RefID": "ShipmentInViewTabContainer",
+			"ElementID": "TabShipmentInViewPalettes"
+		},
+		"ShipmentInGlobalViewPalettesSearchResultList":
+		{
+			"RefID": "ShipmentInGlobalViewPalettesSearchResultListConnector"
+		}
+	},
+
+	"ShipmentInDetail":
+	{
+		"ShipmentInDetailTabContainer":
+		{
+			"RefID": "Root"
+		},
+		"ShipmentInDetailGlobalFormfieldsConnector":
+		{
+			"RefID": "ShipmentInDetailTabContainer",
+			"ElementID": "TabShipmentInDetailGlobal"
+		},
+		"ShipmentInDetailGlobalFormfields":
+		{
+			"RefID": "ShipmentInDetailGlobalFormfieldsConnector"
+		},
+		"ShipmentInDetailGlobalShipmentCode":
+		{
+			"RefID": "ShipmentInDetailGlobalFormfields"
+		},
+		"ShipmentInDetailGlobalShipmentStatus":
+		{
+			"RefID": "ShipmentInDetailGlobalFormfields"
+		},
+		"ShipmentInDetailGlobalShipmentVGPTruckID":
+		{
+			"RefID": "ShipmentInDetailGlobalFormfields"
+		},
+		"ShipmentInDetailGlobalShipmentVGPEDITransmissionDate":
+		{
+			"RefID": "ShipmentInDetailGlobalFormfields"
+		},
+		"ShipmentInDetailGlobalShipmentVGPShipmentDate":
+		{
+			"RefID": "ShipmentInDetailGlobalFormfields"
+		},
+		"ShipmentInDetailGlobalShipmentIncomingDate":
+		{
+			"RefID": "ShipmentInDetailGlobalFormfields"
+		},
+		"ShipmentInDetailGlobalShipmentRemark":
+		{
+			"RefID": "ShipmentInDetailGlobalFormfields"
+		},
+		"ShipmentInDetailGlobalShipmentUpdateSubmit":
+		{
+			"RefID": "ShipmentInDetailTabContainer",
+			"ElementID": "TabShipmentInDetailGlobal"
+		},
+		"ShipmentInDetailGlobalArticleOverviewListConnector":
+		{
+			"RefID": "ShipmentInDetailTabContainer",
+			"ElementID": "TabShipmentInDetailGlobal"
+		},
+		"ShipmentInDetailGlobalArticleOverviewList":
+		{
+			"RefID": "ShipmentInDetailGlobalArticleOverviewListConnector"
+		},
+		"ShipmentInDetailPalettesListConnector":
+		{
+			"RefID": "ShipmentInDetailTabContainer",
+			"ElementID": "TabShipmentInDetailPalettes"
+		},
+		"ShipmentInDetailPalettesList":
+		{
+			"RefID": "ShipmentInDetailPalettesListConnector"
+		},
+		"ShipmentInDetailManualInSelectInListConnector":
+		{
+			"RefID": "ShipmentInDetailTabContainer",
+			"ElementID": "TabShipmentInDetailManualShipmentIn"
+		},
+		"ShipmentInDetailManualInSelectInList":
+		{
+			"RefID": "ShipmentInDetailManualInSelectInListConnector"
+		},
+		"ShipmentInDetailManualInSelectInSubmit":
+		{
+			"RefID": "ShipmentInDetailTabContainer",
+			"ElementID": "TabShipmentInDetailManualShipmentInScan"
+		},
+		"ShipmentInDetailManualInSelectInScanFormfieldsConnector":
+		{
+			"RefID": "ShipmentInDetailTabContainer",
+			"ElementID": "TabShipmentInDetailManualShipmentInScan"
+		},
+		"ShipmentInDetailManualInSelectInScanFormfields":
+		{
+			"RefID": "ShipmentInDetailManualInSelectInScanFormfieldsConnector"
+		},
+		"ShipmentInDetailManualInSelectInScanPaletteExistent":
+		{
+			"RefID": "ShipmentInDetailManualInSelectInScanFormfields"
+		},
+		"ShipmentInDetailManualInSelectInScanPalettePosition":
+		{
+			"RefID": "ShipmentInDetailManualInSelectInScanFormfields"
+		},
+		"ShipmentInDetailManualInSelectInScanPaletteRetourExtern":
+		{
+			"RefID": "ShipmentInDetailManualInSelectInScanFormfields"
+		},
+		"ShipmentInDetailManualInSelectInScanPaletteRetourIntern":
+		{
+			"RefID": "ShipmentInDetailManualInSelectInScanFormfields"
+		},
+		"ShipmentInDetailManualInSelectInScanPaletteExistentSubmit":
+		{
+			"RefID": "ShipmentInDetailTabContainer",
+			"ElementID": "TabShipmentInDetailManualShipmentInScan"
+		}
+	},
+
+	"ShipmentOutView":
+	{
+		"ShipmentOutViewTabContainer":
+		{
+			"RefID": "Root"
+		},
+		"ShipmentOutViewGroup1Formfields":
+		{
+			"RefID": "ShipmentOutViewTabContainer",
+			"ElementID": "TabShipmentOutViewGlobal"
+		},
+		"ShipmentOutViewPickingListDateFrom":
+		{
+			"RefID": "ShipmentOutViewGroup1Formfields"
+		},
+		"ShipmentOutViewPickingListDateTo":
+		{
+			"RefID": "ShipmentOutViewGroup1Formfields"
+		},
+		"ShipmentOutViewGroup2Formfields":
+		{
+			"RefID": "ShipmentOutViewTabContainer",
+			"ElementID": "TabShipmentOutViewGlobal"
+		},
+		"ShipmentOutViewPickingListID":
+		{
+			"RefID": "ShipmentOutViewGroup2Formfields"
+		},
+		"ShipmentOutViewSubmit":
+		{
+			"RefID": "ShipmentOutViewTabContainer",
+			"ElementID": "TabShipmentOutViewGlobal"
+		},
+		"ShipmentOutViewListConnector":
+		{
+			"RefID": "ShipmentOutViewTabContainer",
+			"ElementID": "TabShipmentOutViewGlobal"
+		},
+		"ShipmentOutViewList":
+		{
+			"RefID": "ShipmentOutViewListConnector"
+		},
+		"ShipmentOutViewPalettesFormfields":
+		{
+			"RefID": "ShipmentOutViewTabContainer",
+			"ElementID": "TabShipmentOutViewPalettes"
+		},
+		"ShipmentOutViewPalettesSSCC":
+		{
+			"RefID": "ShipmentOutViewPalettesFormfields"
+		},
+		"ShipmentOutViewPalettesSubmit":
+		{
+			"RefID": "ShipmentOutViewTabContainer",
+			"ElementID": "TabShipmentOutViewPalettes"
+		},
+		"ShipmentOutViewPalettesListConnector":
+		{
+			"RefID": "ShipmentOutViewTabContainer",
+			"ElementID": "TabShipmentOutViewPalettes"
+		},
+		"ShipmentOutViewPalettesList":
+		{
+			"RefID": "ShipmentOutViewPalettesListConnector"
+		}
+
+	},
+
+	"ShipmentOutDetail":
+	{
+		"ShipmentOutDetailTabContainer":
+		{
+			"RefID": "Root"
+		},
+		"ShipmentOutDetailPalettesListConnector":
+		{
+			"RefID": "ShipmentOutDetailTabContainer",
+			"ElementID": "TabShipmentOutDetailPalettes"
+		},
+		"ShipmentOutDetailPalettesList":
+		{
+			"RefID": "ShipmentOutDetailPalettesListConnector"
+		},
+		"ShipmentOutDetailPaletteSwapListConnector":
+		{
+			"RefID": "ShipmentOutDetailTabContainer",
+			"ElementID": "TabShipmentOutDetailPaletteSwap"
+		},
+		"ShipmentOutDetailPaletteSwapList":
+		{
+			"RefID": "ShipmentOutDetailPaletteSwapListConnector"
+		},
+		"ShipmentOutDetailPaletteManualOutListConnector":
+		{
+			"RefID": "ShipmentOutDetailTabContainer",
+			"ElementID": "TabShipmentOutDetailManualOut"
+		},
+		"ShipmentOutDetailPaletteManualOutList":
+		{
+			"RefID": "ShipmentOutDetailPaletteManualOutListConnector"
+		},
+		"ShipmentOutDetailPalettesSwapPalettesButton":
+		{
+			"RefID": "ShipmentOutDetailTabContainer",
+			"ElementID": "TabShipmentOutDetailPaletteSwap"
+		},
+		"ShipmentOutDetailPalettesUpdateDeliveryTicketButton":
+		{
+			"RefID": "ShipmentOutDetailTabContainer",
+			"ElementID": "TabShipmentOutDetailPaletteSwap"
+		},
+		"ShipmentOutDetailManualOutSelectOutSubmit":
+		{
+			"RefID": "ShipmentOutDetailTabContainer",
+			"ElementID": "TabShipmentOutDetailScan"
+		},
+		"ShipmentOutDetailManualOutSelectOutScanFormfieldsConnector":
+		{
+			"RefID": "ShipmentOutDetailTabContainer",
+			"ElementID": "TabShipmentOutDetailScan"
+		},
+		"ShipmentOutDetailManualOutSelectOutScanFormfields":
+		{
+			"RefID": "ShipmentOutDetailManualOutSelectOutScanFormfieldsConnector"
+		},
+		"ShipmentOutDetailManualOutSelectOutScanPaletteExistent":
+		{
+			"RefID": "ShipmentOutDetailManualOutSelectOutScanFormfields"
+		},
+		"ShipmentOutDetailManualOutSelectOutScanPaletteRetourIntern":
+		{
+			"RefID": "ShipmentOutDetailManualOutSelectOutScanFormfields"
+		},
+		"ShipmentOutDetailManualOutSelectOutScanPaletteExistentSubmit":
+		{
+			"RefID": "ShipmentOutDetailTabContainer",
+			"ElementID": "TabShipmentOutDetailScan"
+		}
+	},
+
+	"PaletteView":
+	{
+		"PaletteViewFormfields":
+		{
+			"RefID": "Root"
+		},
+		"PaletteViewShipmentID":
+		{
+			"RefID": "PaletteViewFormfields"
+		},
+		"PaletteViewSSCC":
+		{
+			"RefID": "PaletteViewFormfields"
+		},
+		"PaletteViewVGPArticleNumber":
+		{
+			"RefID": "PaletteViewFormfields"
+		},
+		"PaletteViewVGPBuyerCode":
+		{
+			"RefID": "PaletteViewFormfields"
+		},
+		"PaletteViewWarehousePositionCode":
+		{
+			"RefID": "PaletteViewFormfields"
+		},
+		"PaletteViewSubmit":
+		{
+			"RefID": "Root"
+		},
+		"PaletteViewListConnector":
+		{
+			"RefID": "Root"
+		},
+		"PaletteViewList":
+		{
+			"RefID": "PaletteViewListConnector"
+		}
+	},
+
+	"PaletteDetail":
+	{
+		"PaletteDetailFormfieldsConnector":
+		{
+			"RefID": "Root"
+		},
+		"PaletteDetailFormfields":
+		{
+			"RefID": "PaletteDetailFormfieldsConnector"
+		},
+		"PaletteDetailSSCC":
+		{
+			"RefID": "PaletteDetailFormfields"
+		},
+		"PaletteDetailDamageType":
+		{
+			"RefID": "PaletteDetailFormfields"
+		},
+		"PaletteDetailWarehousePositionCode":
+		{
+			"RefID": "PaletteDetailFormfields"
+		},
+		"PaletteDetailRemark":
+		{
+			"RefID": "PaletteDetailFormfields"
+		},
+		"PaletteDetailUpdateSubmit":
+		{
+			"RefID": "Root"
+		}
+	},
+
+	"Exceptions":
+	{
+		"ExceptionsListConnector":
+		{
+			"RefID": "Root"
+		},
+		"ExceptionsList":
+		{
+			"RefID": "ExceptionsListConnector"
+		},
+		"ExceptionsSendRetourButton":
+		{
+			"RefID": "Root"
+		}		
+	}
+
+}

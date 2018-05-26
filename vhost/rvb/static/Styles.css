@@ -1,0 +1,2142 @@
+/* --------------------------------------------- */
+/* GLOBAL Styles                                 */
+
+html, body {
+   overflow-x: hidden;
+}
+
+br {
+   line-height: 2px;
+}
+
+p {
+   margin-top: 6px;
+   margin-bottom: 8px;
+}
+
+ul {
+   margin-top: 6px;
+   margin-bottom: 8px;
+}
+
+h1 {
+   font-size: 16px;
+}
+
+
+/* --------------------------------------------- */
+/* Form Field Styles                             */
+
+.sysFormListTable {
+   display: table;
+   width: 800px;
+   height: 100px;
+   top: 4px;
+   left: 0px;
+   background-color: #f1f3f4;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 0px 5px 5px 0px;
+   padding: 1px;
+   position: absolute;
+}
+
+.sysFormListTableRow {
+   display: table-row;
+   margin: 0px;
+   padding: 0px;
+   position: absolute;
+}
+
+.sysFormListColDescription {
+   display: table-column;
+   width: 160px;
+   left: 0px;
+   position: absolute;
+}
+
+.sysFormListColSpacer {
+   display: table-column;
+   width: 10px;
+   left: 160px;
+   position: absolute;
+}
+
+.sysFormListColForm {
+   display: table-column;
+   width: 160px;
+   left: 170px;
+   position: absolute;
+}
+
+.sysFormListDescription {
+   padding-left: 2px;
+   padding-top: 6px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 14px;
+   color: #000731;
+}
+
+
+
+.FormFieldShipmentInDetailManualInSelectIn {
+   border: 1px solid rgba(200, 200, 200, 0.8);
+   -moz-border-radius: 2px 2px 2px 2px;
+   border-radius: 2px 2px 2px 2px;
+   margin-left: 1px;
+   margin-top: 1px;
+   width: 160px;
+   height: 12px;
+   font-family: sans-serif;
+   font-size: 9px;
+   padding: 1px;
+}
+
+.FormFieldShipmentInDetailManualInSelectInOnFocus {
+   -moz-box-shadow: 0 0 3px #4eb3ff;
+   box-shadow: 0 0 3px #4eb3ff;
+}
+
+
+.FormFieldBorder {
+   border: 1px solid rgba(200, 200, 200, 0.8);
+   -moz-border-radius: 6px 6px 6px 6px;
+   border-radius: 6px 6px 6px 6px;
+   margin-left: 4px;
+   margin-top: 2px;
+   width: 600px;
+   height: 26px;
+   font-family: sans-serif;
+   font-size: 12px;
+   padding: 4px;
+   background-color: #f8f8f8;
+}
+
+.FormFieldBorderSmall {
+   border: 1px solid rgba(200, 200, 200, 0.8);
+   -moz-border-radius: 6px 6px 6px 6px;
+   border-radius: 6px 6px 6px 6px;
+   margin-left: 4px;
+   margin-top: 2px;
+   width: 100px;
+   height: 16px;
+   font-family: sans-serif;
+   font-size: 11px;
+   padding: 2px;
+}
+
+.FormFieldBorderTiny {
+   border: 1px solid rgba(200, 200, 200, 0.8);
+   -moz-border-radius: 2px 2px 2px 2px;
+   border-radius: 2px 2px 2px 2px;
+   margin-left: 1px;
+   margin-top: 1px;
+   width: 60px;
+   height: 20px;
+   font-family: sans-serif;
+   font-size: 11px;
+   padding: 1px;
+}
+
+.FormFieldDisplayOnly {
+   border: 1px dotted rgba(200, 200, 200, 0.8);
+   -moz-border-radius: 2px 2px 2px 2px;
+   border-radius: 2px 2px 2px 2px;
+   margin-left: 2px;
+   margin-top: 2px;
+   width: 300px;
+   height: 20px;
+   font-family: sans-serif;
+   font-size: 12px;
+   padding: 2px;
+}
+
+.FormFieldBorderOnFocus {
+   -moz-box-shadow: 0 0 6px #4eb3ff;
+   box-shadow: 0 0 6px #4eb3ff;
+}
+
+.FormFieldBorderValidateOk {
+   -moz-box-shadow: 0 0 6px #00ff00;
+   box-shadow: 0 0 6px #00ff00;
+}
+
+.FormFieldBorderValidateFail {
+   -moz-box-shadow: 0 0 6px #ff0022;
+   box-shadow: 0 0 6px #ff0022;
+   background-color: #ff2222;
+}
+
+.FormFieldBorderPulldown {
+   border: 1px solid rgba(200, 200, 200, 0.8);
+   -moz-border-radius: 6px 6px 6px 6px;
+   border-radius: 6px 6px 6px 6px;
+   margin-left: 4px;
+   margin-top: 2px;
+   width: 610px;
+   height: 26px;
+   font-family: sans-serif;
+   font-size: 12px;
+   padding: 4px;
+}
+
+.FormFieldBorderPulldown100px {
+   border: 1px solid rgba(200, 200, 200, 0.8);
+   -moz-border-radius: 2px 2px 2px 2px;
+   border-radius: 2px 2px 2px 2px;
+   margin-left: 1px;
+   margin-top: 1px;
+   width: 100px;
+   height: 20px;
+   font-family: sans-serif;
+   font-size: 11px;
+   padding: 1px;
+}
+
+.FormFieldBorderPulldown50px {
+   border: 1px solid rgba(200, 200, 200, 0.8);
+   -moz-border-radius: 2px 2px 2px 2px;
+   border-radius: 2px 2px 2px 2px;
+   margin-left: 1px;
+   margin-top: 1px;
+   width: 50px;
+   height: 20px;
+   font-family: sans-serif;
+   font-size: 11px;
+   padding: 1px;
+}
+
+.FormFieldBorderPulldownShipmentInDetailManualInSelectIn {
+   border: 1px solid rgba(200, 200, 200, 0.8);
+   -moz-border-radius: 1px 1px 1px 1px;
+   border-radius: 1px 1px 1px 1px;
+   margin-left: 1px;
+   margin-top: 1px;
+   width: 95px;
+   height: 16px;
+   font-family: sans-serif;
+   font-size: 9px;
+   padding: 1px;
+}
+
+
+.FormFieldBorderTextarea {
+   border: 1px solid rgba(200, 200, 200, 0.8);
+   -moz-border-radius: 6px 6px 6px 6px;
+   border-radius: 6px 6px 6px 6px;
+   margin-left: 4px;
+   margin-top: 2px;
+   width: 600px;
+   height: 50px;
+   font-family: sans-serif;
+   font-size: 12px;
+   padding: 4px;
+}
+
+.FormfieldDefaultDescription {
+   font-family: sans-serif;
+   font-size: 12px;
+   color: #000731;
+   vertical-align: top;
+}
+
+
+/* --------------------------------------------- */
+/* System Context Menu Styles                    */
+
+.sysContextMenuTable {
+   display: table;
+   width: 300px;
+   height: 200px;
+   background: url("/images/gradhead.png") repeat-y scroll 0 0 #ffffff;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 5px 5px 5px 5px;
+   padding: 1px;
+   position: absolute;
+   z-index: 100;
+}
+
+.sysContextMenuHeaderRow {
+   display: table-row;
+   margin: 0px;
+   padding: 0px;
+   height: 20px;
+   background: url("/images/gradback.png") repeat-x scroll 0 0 #ffffff;
+   position: absolute;
+   z-index: 100;
+}
+
+.sysContextMenuHeaderColDescription {
+   float: none;
+   display: table-column;
+   left: 0px;
+   width: 280px;
+   height: 20px;
+   background: url("/images/gradback.png") repeat-x scroll 0 0 #ffffff;
+   padding: 0px 0px 0px 0px;
+   position: absolute;
+   z-index: 100;
+}
+
+.sysContextMenuHeaderDescriptionText {
+   padding-left: 8px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 14px;
+   font-weight: bold;
+   height: 20px;
+   color: #000731;
+   position: absolute;
+   z-index: 100;
+}
+
+.sysContextMenuHeaderColClose {
+   float: none;
+   display: table-column;
+   background: url("/images/context_menu_close.png") repeat-x scroll 0 0 #ffffff;
+   background-color: #efefef;
+   border: 1px dotted #cfcfcf;
+   border-radius: 0px 0px 0px 8px;
+   border-right-style: none;
+   left: 280px;
+   width: 20px;
+   height: 20px;
+   padding: 0px 0px 0px 0px;
+   position: absolute;
+   z-index: 100;
+}
+
+.sysContextMenuItemRow {
+   display: table-row;
+   margin: 0px;
+   padding: 0px;
+   height: 20px;
+   background: url("/images/gradback.png") repeat-x scroll 0 0 #ffffff;
+   position: absolute;
+   z-index: 100;
+}
+
+.sysContextMenuItemColDescription {
+   float: none;
+   display: table-column;
+   left: 0px;
+   width: 280px;
+   height: 20px;
+   background: url("/images/gradback.png") repeat-x scroll 0 0 #ffffff;
+   padding: 0px 0px 0px 0px;
+   position: absolute;
+   z-index: 100;
+}
+
+.sysContextMenuItemDescriptionText {
+   padding-left: 8px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 14px;
+   font-weight: bold;
+   height: 20px;
+   color: #000731;
+   position: absolute;
+   z-index: 100;
+}
+
+.sysContextMenuItemIconEdit {
+   float: none;
+   display: table-column;
+   background: url("/images/context_menu_edit.png") repeat-x scroll 0 0 #ffffff;
+   background-color: #efefef;
+   border: 1px dotted #cfcfcf;
+   border-radius: 0px 0px 0px 8px;
+   border-right-style: none;
+   left: 280px;
+   width: 20px;
+   height: 20px;
+   padding: 0px 0px 0px 0px;
+   position: absolute;
+   z-index: 100;
+}
+
+.sysContextMenuItemIconDelete {
+   float: none;
+   display: table-column;
+   background: url("/images/context_menu_delete.png") repeat-x scroll 0 0 #ffffff;
+   background-color: #efefef;
+   border: 1px dotted #cfcfcf;
+   border-radius: 0px 0px 0px 8px;
+   border-right-style: none;
+   left: 280px;
+   width: 20px;
+   height: 20px;
+   padding: 0px 0px 0px 0px;
+   position: absolute;
+   z-index: 100;
+}
+
+.SYSGlobalContextMenuTable tbody tr:hover td {
+   background: url("/images/gradhover.png") repeat-x scroll 0 0 #000000;
+   color: #333399;
+}
+
+
+/* --------------------------------------------- */
+/* System AsyncNotifyIndicator Styles            */
+
+.SYSGlobalAsyncNotifyIndicatorItemBKGRDBorder {
+   position: absolute;
+   width: 298px;
+   height: 56px;
+   background: url("/images/Background.AsyncIndicator.TransactionBorder.png") repeat-x scroll 0 0 #ffffff;
+   font-size: 11px;
+   font-weight: normal;
+   text-align: left;
+   padding: 3px;
+}
+
+.SYSGlobalAsyncNotifyIndicatorItemClose {
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   right: 1px;
+}
+
+.SYSGlobalAsyncNotifyIndicatorItemName {
+   position: absolute;
+   width: 200px;
+   height: 20px;
+   left: 11px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 12px;
+   font-weight: bold;
+   color: #000731;
+}
+
+.SYSGlobalAsyncNotifyIndicatorItemBKGRDProcessStatus {
+   position: absolute;
+   width: 284px;
+   height: 20px;
+   left: 10px;
+   background: url("/images/Background.AsyncIndicator.ProcessingStatus.png") repeat-x scroll 0 0 #ffffff;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 11px;
+   color: #000731;
+}
+
+.SYSGlobalAsyncNotifyIndicatorItemProcessStatusIcon {
+   position: absolute;
+   width: 16px;
+   height: 16px;
+   right: 10px;
+}
+
+
+/* --------------------------------------------- */
+/* System TAB Styles                             */
+
+.sysTabTable {
+   display: table;
+   border: 0px;
+   border-spacing: 0px;
+   padding: 0px;
+   margin: 0px;
+   height: 34px;
+   position: absolute;
+}
+
+.sysTabTableRow {
+   display: table-row;
+   border: 0px;
+   border-spacing: 0px;
+   padding: 0px;
+   margin: 0px;
+   height: 34px;
+   position: absolute;
+}
+
+.sysTabActiveLeft {
+   display: table-column;
+   background: url("/images/tab_active_left.png") repeat-x scroll 0 0 #ffffff;
+   padding: 0px;
+   margin: 0px;
+   width: 4px;
+   height: 34px;
+   position: absolute;
+}
+
+.sysTabActiveMiddle {
+   display: table-column;
+   background: url("/images/tab_active_middle.png") repeat-x scroll 0 0 #ffffff;
+   padding: 0px;
+   margin: 0px;
+   height: 34px;
+   text-align: left;
+   vertical-align: top;
+   position: absolute;
+}
+
+.sysTabActiveRight {
+   display: table-column;
+   background: url("/images/tab_active_right.png") repeat-x scroll 0 0 #ffffff;
+   padding: 0px;
+   margin: 0px;
+   height: 34px;
+   width: 4px;
+   position: absolute;
+}
+
+.sysTabActiveText {
+   padding-left: 8px;
+   padding-top: 4px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 12px;
+   font-weight: bold;
+   height: 16px;
+   color: #000731;
+   position: absolute;
+}
+
+.sysTabInactiveLeft {
+   display: table-column;
+   background: url("/images/tab_inactive_left.png") repeat-x scroll 0 0 #ffffff;
+   padding-left: 0px;
+   margin: 0px;
+   width: 4px;
+   height: 34px;
+   position: absolute;
+}
+
+.sysTabInactiveMiddle {
+   display: table-column;
+   background: url("/images/tab_inactive_middle.png") repeat-x scroll 0 0 #ffffff;
+   padding: 0px;
+   left: 304px;
+   margin: 0px;
+   height: 34px;
+   text-align: left;
+   vertical-align: top;
+   position: absolute;
+}
+
+.sysTabInactiveRight {
+   display: table-column;
+   background: url("/images/tab_inactive_right.png") repeat-x scroll 0 0 #ffffff;
+   padding-left: 0px;
+   left: 504px;
+   margin: 0px;
+   width: 4px;
+   height: 34px;
+   position: absolute;
+}
+
+.sysTabInactiveText {
+   padding-left: 8px;
+   padding-top: 4px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 12px;
+   height: 16px;
+   color: #000731;
+   position: absolute;
+}
+
+.sysTabContent {
+   position: absolute;
+}
+
+
+/* --------------------------------------------- */
+/* sysList Styles                                */
+
+.sysListGlobalSearchResultHeaderTable {
+   display: table;
+   width: 814px;
+   height: 20px;
+   top: 200px;
+   left: 270px;
+   background-color: #aeaeae;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 5px 5px 5px 5px;
+   padding: 1px;
+   position: absolute;
+}
+
+.sysListGlobalSearchResultHeaderTableRow {
+   display: table-row;
+   margin: 0px;
+   padding: 0px;
+   position: absolute;
+}
+
+.sysListGlobalSearchResultHeaderCol {
+   float: none;
+   display: table-column;
+   width: 100%;
+   height: 20px;
+   border: 0px;
+   background-color: #cecece;
+   padding: 0px 0px 0px 1px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 11px;
+   font-weight: bold;
+   position: absolute;
+}
+
+.sysListGlobalSearchResultContentTable {
+   display: table;
+   width: 814px;
+   height: 649px;
+   top: 224px;
+   left: 270px;
+   background-color: #f5f5f5;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 0px 0px 0px 0px;
+   padding: 1px;
+   position: absolute;
+}
+
+.sysListGlobalSearchResultContentTableRow {
+   display: table-row;
+   margin: 0px;
+   padding: 0px;
+   position: absolute;
+}
+
+.sysListGlobalSearchResultContentCol {
+   float: none;
+   display: table-column;
+   height: 24px;
+   border: 1px dotted #afafaf;
+   border-radius: 0px 0px 0px 0px;
+   border-right-style: none;
+   padding-top: 2px;
+   padding-left: 2px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 11px;
+   position: absolute;
+}
+
+.sysListGlobalSearchResultTableNavLeft {
+   display: table;
+   width: 40px;
+   height: 40px;
+   top: 894px;
+   left: 270px;
+   background-color: #f5f5f5;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 5px 5px 5px 5px;
+   padding: 1px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 10px;
+   position: absolute;
+}
+
+.sysListGlobalSearchResultTableNavRight {
+   display: table;
+   width: 40px;
+   height: 40px;
+   top: 894px;
+   left: 1044px;
+   background-color: #f5f5f5;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 5px 5px 5px 5px;
+   padding: 1px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 10px;
+   position: absolute;
+}
+
+.sysListGlobalSearchResultIndexContainer {
+   display: table;
+   width: 712px;
+   height: 40px;
+   top: 894px;
+   left: 321px;
+   background-color: #f5f5f5;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 3px 3px 3px 3px;
+   padding: 1px;
+   position: absolute;
+}
+
+.sysListGlobalSearchResultIndexElement {
+   width: 40px;
+   height: 40px;
+   top: 0px;
+   background-color: #f5f5f5;
+   border: 1px dotted #c5c5c5;
+   border-spacing: 1px;
+   border-radius: 5px 5px 5px 5px;
+   padding: 1px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 14px;
+   font-weight: bold;
+   position: absolute;
+}
+
+/* ----------------------------------------------------------------------- */
+
+
+.sysListArticleNewHeaderTable {
+   display: table;
+   width: 1400px;
+   height: 20px;
+   top: 10px;
+   left: 10px;
+   background-color: #aeaeae;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 5px 5px 5px 5px;
+   padding: 1px;
+   position: absolute;
+}
+
+.sysListArticleNewHeaderTableRow {
+   display: table-row;
+   margin: 0px;
+   padding: 0px;
+   position: absolute;
+}
+
+.sysListArticleNewHeaderCol {
+   float: none;
+   display: table-column;
+   width: 100%;
+   height: 20px;
+   border: 0px;
+   background-color: #cecece;
+   padding: 0px 0px 0px 1px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 11px;
+   font-weight: bold;
+   position: absolute;
+}
+
+.sysListArticleNewContentTable {
+   display: table;
+   width: 1400px;
+   height: 749px;
+   top: 34px;
+   left: 10px;
+   background-color: #f5f5f5;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 0px 0px 0px 0px;
+   padding: 1px;
+   position: absolute;
+}
+
+.sysListArticleNewContentTableRow {
+   display: table-row;
+   margin: 0px;
+   padding: 0px;
+   position: absolute;
+}
+
+.sysListArticleNewContentCol {
+   float: none;
+   display: table-column;
+   height: 24px;
+   border: 1px dotted #afafaf;
+   border-radius: 0px 0px 0px 0px;
+   border-right-style: none;
+   padding-top: 2px;
+   padding-left: 2px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 11px;
+   position: absolute;
+}
+
+.sysListArticleNewTableNavLeft {
+   display: table;
+   width: 40px;
+   height: 40px;
+   top: 794px;
+   left: 10px;
+   background-color: #f5f5f5;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 5px 5px 5px 5px;
+   padding: 1px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 10px;
+   position: absolute;
+}
+
+.sysListArticleNewTableNavRight {
+   display: table;
+   width: 40px;
+   height: 40px;
+   top: 794px;
+   left: 1370px;
+   background-color: #f5f5f5;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 5px 5px 5px 5px;
+   padding: 1px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 10px;
+   position: absolute;
+}
+
+.sysListArticleNewIndexContainer {
+   display: table;
+   width: 1300px;
+   height: 40px;
+   top: 794px;
+   left: 60px;
+   background-color: #f5f5f5;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 3px 3px 3px 3px;
+   padding: 1px;
+   position: absolute;
+}
+
+.sysListArticleNewIndexElement {
+   width: 40px;
+   height: 40px;
+   top: 0px;
+   background-color: #f5f5f5;
+   border: 1px dotted #c5c5c5;
+   border-spacing: 1px;
+   border-radius: 5px 5px 5px 5px;
+   padding: 1px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 14px;
+   font-weight: bold;
+   position: absolute;
+}
+
+/* ----------------------------------------------------------------------- */
+
+
+.sysListShipmentAssignmentSourceHeaderTable {
+   display: table;
+   width: 810px;
+   height: 26px;
+   top: 2px;
+   left: 0px;
+   background-color: #e5e5e5;
+   border: 2px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 3px 3px 3px 3px;
+   padding: 0px;
+   position: absolute;
+}
+
+.sysListShipmentAssignmentSourceHeaderTableRow {
+   display: table-row;
+   margin: 0px;
+   padding: 0px;
+   position: absolute;
+}
+
+.sysListShipmentAssignmentSourceHeaderCol {
+   float: none;
+   display: table-column;
+   width: 100%;
+   height: 26px;
+   padding: 0px 0px 0px 5px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 11px;
+   font-weight: bold;
+   position: absolute;
+}
+
+.sysListShipmentAssignmentSourceContentTable {
+   display: table;
+   width: 810px;
+   height: 284px;
+   top: 32px;
+   left: 0px;
+   background-color: #f5f5f5;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 0px 0px 0px 0px;
+   padding: 1px;
+   position: absolute;
+}
+
+.sysListShipmentAssignmentSourceContentTableRow {
+   display: table-row;
+   margin: 0px;
+   padding: 0px;
+   position: absolute;
+}
+
+.sysListShipmentAssignmentSourceContentCol {
+   float: none;
+   display: table-column;
+   height: 24px;
+   border: 1px dotted #afafaf;
+   border-radius: 0px 0px 0px 0px;
+   border-right-style: none;
+   padding-top: 2px;
+   padding-left: 6px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 11px;
+   position: absolute;
+}
+
+.sysListShipmentAssignmentSourceTableNavLeft {
+   display: table;
+   width: 40px;
+   height: 20px;
+   top: 320px;
+   left: 0px;
+   background-color: #f5f5f5;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 5px 5px 5px 5px;
+   padding: 1px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 10px;
+   position: absolute;
+}
+
+.sysListShipmentAssignmentSourceTableNavRight {
+   display: table;
+   width: 40px;
+   height: 20px;
+   top: 320px;
+   left: 770px;
+   background-color: #f5f5f5;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 5px 5px 5px 5px;
+   padding: 1px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 10px;
+   position: absolute;
+}
+
+.sysListShipmentAssignmentSourceIndexContainer {
+   display: table;
+   width: 712px;
+   height: 20px;
+   top: 320px;
+   left: 50px;
+   background-color: #f5f5f5;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 3px 3px 3px 3px;
+   padding: 1px;
+   position: absolute;
+}
+
+.sysListShipmentAssignmentSourceIndexElement {
+   width: 40px;
+   height: 20px;
+   top: 0px;
+   background-color: #f5f5f5;
+   border: 1px dotted #c5c5c5;
+   border-spacing: 1px;
+   border-radius: 5px 5px 5px 5px;
+   padding: 1px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 14px;
+   font-weight: bold;
+   position: absolute;
+}
+
+/* ----------------------------------------------------------------------- */
+
+
+.sysListShipmentAssignmentConfirmationHeaderTable {
+   display: table;
+   width: 810px;
+   height: 26px;
+   top: 2px;
+   left: 0px;
+   background-color: #e5e5e5;
+   border: 2px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 3px 3px 3px 3px;
+   padding: 0px;
+   position: absolute;
+}
+
+.sysListShipmentAssignmentConfirmationHeaderTableRow {
+   display: table-row;
+   margin: 0px;
+   padding: 0px;
+   position: absolute;
+}
+
+.sysListShipmentAssignmentConfirmationHeaderCol {
+   float: none;
+   display: table-column;
+   width: 100%;
+   height: 26px;
+   padding: 0px 0px 0px 5px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 11px;
+   font-weight: bold;
+   position: absolute;
+}
+
+.sysListShipmentAssignmentConfirmationContentTable {
+   display: table;
+   width: 810px;
+   height: 800px;
+   top: 32px;
+   left: 0px;
+   background-color: #f5f5f5;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 0px 0px 0px 0px;
+   padding: 1px;
+   position: absolute;
+}
+
+.sysListShipmentAssignmentConfirmationContentTableRow {
+   display: table-row;
+   margin: 0px;
+   padding: 0px;
+   position: absolute;
+}
+
+.sysListShipmentAssignmentConfirmationContentCol {
+   float: none;
+   display: table-column;
+   height: 24px;
+   border: 1px dotted #afafaf;
+   border-radius: 0px 0px 0px 0px;
+   border-right-style: none;
+   padding-top: 2px;
+   padding-left: 6px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 11px;
+   position: absolute;
+}
+
+.sysListShipmentAssignmentConfirmationTableNavLeft {
+   display: table;
+   width: 40px;
+   height: 40px;
+   top: 850px;
+   left: 0px;
+   background-color: #f5f5f5;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 5px 5px 5px 5px;
+   padding: 1px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 10px;
+   position: absolute;
+}
+
+.sysListShipmentAssignmentConfirmationTableNavRight {
+   display: table;
+   width: 40px;
+   height: 40px;
+   top: 850px;
+   left: 770px;
+   background-color: #f5f5f5;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 5px 5px 5px 5px;
+   padding: 1px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 10px;
+   position: absolute;
+}
+
+.sysListShipmentAssignmentConfirmationIndexContainer {
+   display: table;
+   width: 712px;
+   height: 40px;
+   top: 850px;
+   left: 50px;
+   background-color: #f5f5f5;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 3px 3px 3px 3px;
+   padding: 1px;
+   position: absolute;
+}
+
+.sysListShipmentAssignmentConfirmationIndexElement {
+   width: 40px;
+   height: 20px;
+   top: 0px;
+   background-color: #f5f5f5;
+   border: 1px dotted #c5c5c5;
+   border-spacing: 1px;
+   border-radius: 5px 5px 5px 5px;
+   padding: 1px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 14px;
+   font-weight: bold;
+   position: absolute;
+}
+
+/* ----------------------------------------------------------------------- */
+
+
+.sysListShipmentAssignmentDestinationHeaderTable {
+   display: table;
+   width: 810px;
+   height: 26px;
+   top: 386px;
+   left: 0px;
+   background-color: #e5e5e5;
+   border: 2px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 3px 3px 3px 3px;
+   padding: 0px;
+   position: absolute;
+}
+
+.sysListShipmentAssignmentDestinationHeaderTableRow {
+   display: table-row;
+   margin: 0px;
+   padding: 0px;
+   position: absolute;
+}
+
+.sysListShipmentAssignmentDestinationHeaderCol {
+   float: none;
+   display: table-column;
+   width: 100%;
+   height: 26px;
+   border: 0px;
+   padding: 0px 0px 0px 5px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 11px;
+   font-weight: bold;
+   position: absolute;
+}
+
+.sysListShipmentAssignmentDestinationContentTable {
+   display: table;
+   width: 810px;
+   height: 362px;
+   top: 416px;
+   left: 0px;
+   background-color: #f5f5f5;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 0px 0px 0px 0px;
+   padding: 1px;
+   position: absolute;
+}
+
+.sysListShipmentAssignmentDestinationContentTableRow {
+   display: table-row;
+   margin: 0px;
+   padding: 0px;
+   position: absolute;
+}
+
+.sysListShipmentAssignmentDestinationContentCol {
+   float: none;
+   display: table-column;
+   height: 24px;
+   border: 1px dotted #afafaf;
+   border-radius: 0px 0px 0px 0px;
+   border-right-style: none;
+   padding-top: 2px;
+   padding-left: 6px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 11px;
+   position: absolute;
+}
+
+.sysListShipmentAssignmentDestinationTableNavLeft {
+   display: table;
+   width: 40px;
+   height: 20px;
+   top: 782px;
+   left: 0px;
+   background-color: #f5f5f5;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 5px 5px 5px 5px;
+   padding: 1px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 10px;
+   position: absolute;
+}
+
+.sysListShipmentAssignmentDestinationTableNavRight {
+   display: table;
+   width: 40px;
+   height: 20px;
+   top: 782px;
+   left: 770px;
+   background-color: #f5f5f5;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 5px 5px 5px 5px;
+   padding: 1px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 10px;
+   position: absolute;
+}
+
+.sysListShipmentAssignmentDestinationIndexContainer {
+   display: table;
+   width: 710px;
+   height: 20px;
+   top: 782px;
+   left: 50px;
+   background-color: #f5f5f5;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 3px 3px 3px 3px;
+   padding: 1px;
+   position: absolute;
+}
+
+.sysListShipmentAssignmentDestinationIndexElement {
+   width: 40px;
+   height: 20px;
+   top: 0px;
+   background-color: #f5f5f5;
+   border: 1px dotted #c5c5c5;
+   border-spacing: 1px;
+   border-radius: 5px 5px 5px 5px;
+   padding: 1px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 14px;
+   font-weight: bold;
+   position: absolute;
+}
+
+/* ----------------------------------------------------------------------- */
+
+
+.sysListShipmentHistoryReceiverHeaderTable {
+   display: table;
+   width: 813px;
+   height: 30px;
+   top: 130px;
+   left: -1px;
+   background-color: #f5f5f5;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 5px 5px 5px 5px;
+   padding: 1px;
+   position: absolute;
+}
+
+.sysListShipmentHistoryReceiverHeaderTableRow {
+   display: table-row;
+   margin: 0px;
+   padding: 0px;
+   position: absolute;
+}
+
+.sysListShipmentHistoryReceiverHeaderCol {
+   float: none;
+   display: table-column;
+   width: 100%;
+   height: 30px;
+   border: 0px;
+   padding: 0px 0px 0px 0px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 11px;
+   font-weight: bold;
+   position: absolute;
+}
+
+.sysListShipmentHistoryReceiverContentTable {
+   display: table;
+   width: 813px;
+   height: 670px;
+   top: 170px;
+   left: -1px;
+   background-color: #f5f5f5;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 0px 0px 0px 0px;
+   padding: 1px;
+   position: absolute;
+}
+
+.sysListShipmentHistoryReceiverContentTableRow {
+   display: table-row;
+   margin: 0px;
+   padding: 0px;
+   position: absolute;
+}
+
+.sysListShipmentHistoryReceiverContentCol {
+   float: none;
+   display: table-column;
+   height: 24px;
+   border: 1px dotted #afafaf;
+   border-radius: 0px 0px 0px 0px;
+   border-right-style: none;
+   padding-top: 2px;
+   padding-left: 6px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 11px;
+   position: absolute;
+}
+
+.sysListShipmentHistoryReceiverTableNavLeft {
+   display: table;
+   width: 40px;
+   height: 40px;
+   top: 850px;
+   left: -1px;
+   background-color: #f5f5f5;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 5px 5px 5px 5px;
+   padding: 1px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 10px;
+   position: absolute;
+}
+
+.sysListShipmentHistoryReceiverTableNavRight {
+   display: table;
+   width: 40px;
+   height: 40px;
+   top: 850px;
+   left: 772px;
+   background-color: #f5f5f5;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 5px 5px 5px 5px;
+   padding: 1px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 10px;
+   position: absolute;
+}
+
+.sysListShipmentHistoryReceiverIndexContainer {
+   display: table;
+   width: 710px;
+   height: 40px;
+   top: 850px;
+   left: 50px;
+   background-color: #f5f5f5;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 3px 3px 3px 3px;
+   padding: 1px;
+   position: absolute;
+}
+
+.sysListShipmentHistoryReceiverIndexElement {
+   width: 40px;
+   height: 40px;
+   top: 0px;
+   background-color: #f5f5f5;
+   border: 1px dotted #c5c5c5;
+   border-spacing: 1px;
+   border-radius: 5px 5px 5px 5px;
+   padding: 1px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 14px;
+   font-weight: bold;
+   position: absolute;
+}
+
+/* ----------------------------------------------------------------------- */
+
+
+.sysListShipmentDetailHeaderTable {
+   display: table;
+   width: 813px;
+   height: 30px;
+   top: 230px;
+   left: 270px;
+   background-color: #f5f5f5;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 5px 5px 5px 5px;
+   padding: 1px;
+   position: absolute;
+}
+
+.sysListShipmentDetailHeaderTableRow {
+   display: table-row;
+   margin: 0px;
+   padding: 0px;
+   position: absolute;
+}
+
+.sysListShipmentDetailHeaderCol {
+   float: none;
+   display: table-column;
+   width: 100%;
+   height: 30px;
+   border: 0px;
+   padding: 0px 0px 0px 0px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 11px;
+   font-weight: bold;
+   position: absolute;
+}
+
+.sysListShipmentDetailContentTable {
+   display: table;
+   width: 813px;
+   height: 614px;
+   top: 270px;
+   left: 269px;
+   background-color: #f5f5f5;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 0px 0px 0px 0px;
+   padding: 1px;
+   position: absolute;
+}
+
+.sysListShipmentDetailContentTableRow {
+   display: table-row;
+   margin: 0px;
+   padding: 0px;
+   position: absolute;
+}
+
+.sysListShipmentDetailContentCol {
+   float: none;
+   display: table-column;
+   height: 24px;
+   border: 1px dotted #afafaf;
+   border-radius: 0px 0px 0px 0px;
+   border-right-style: none;
+   padding-top: 2px;
+   padding-left: 6px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 11px;
+   position: absolute;
+}
+
+.sysListShipmentDetailTableNavLeft {
+   display: table;
+   width: 40px;
+   height: 40px;
+   top: 894px;
+   left: 269px;
+   background-color: #f5f5f5;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 5px 5px 5px 5px;
+   padding: 1px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 10px;
+   position: absolute;
+}
+
+.sysListShipmentDetailTableNavRight {
+   display: table;
+   width: 40px;
+   height: 40px;
+   top: 894px;
+   left: 1042px;
+   background-color: #f5f5f5;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 5px 5px 5px 5px;
+   padding: 1px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 10px;
+   position: absolute;
+}
+
+.sysListShipmentDetailIndexContainer {
+   display: table;
+   width: 710px;
+   height: 40px;
+   top: 894px;
+   left: 320px;
+   background-color: #f5f5f5;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 3px 3px 3px 3px;
+   padding: 1px;
+   position: absolute;
+}
+
+.sysListShipmentDetailIndexElement {
+   width: 40px;
+   height: 40px;
+   top: 0px;
+   background-color: #f5f5f5;
+   border: 1px dotted #c5c5c5;
+   border-spacing: 1px;
+   border-radius: 5px 5px 5px 5px;
+   padding: 1px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 14px;
+   font-weight: bold;
+   position: absolute;
+}
+
+
+/* --------------------------------------------- */
+/* sysButton Styles                              */
+
+.sysButtonTable {
+   display: table;
+   width: 810px;
+   height: 30px;
+   background-color: #efefef;
+   border: 2px solid #d5d5d5;
+   border-spacing: 0px;
+   border-radius: 2px 2px 2px 2px;
+   padding: 0px;
+   position: absolute;
+}
+
+.sysButtonTableRow {
+   display: table-row;
+   margin: 0px;
+   padding: 0px;
+   position: absolute;
+}
+
+.sysButtonDescription {
+   float: none;
+   display: table-column;
+   width: 780px;
+   height: 28px;
+   background-color: #cfcfcf;
+   border: 1px dotted #cfcfcf;
+   left: 0px;
+   padding: 0px 0px 0px 0px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-weight: bold;
+   font-size: 12px;
+   position: absolute;
+}
+
+.sysButtonImage {
+   float: none;
+   width: 68px;
+   height: 28px;
+   border: 1px dotted #afafaf;
+   border-radius: 0px 0px 0px 0px;
+   left: 740px;
+   padding: 0px 0px 0px 0px;
+   background-color: #cfcfcf;
+   background-image: url("/images/Button.png");
+   position: absolute;
+}
+
+.sysButtonWideTable {
+   display: table;
+   width: 1428px;
+   height: 30px;
+   background-color: #efefef;
+   border: 2px solid #d5d5d5;
+   border-spacing: 0px;
+   border-radius: 2px 2px 2px 2px;
+   padding: 0px;
+   position: absolute;
+}
+
+.sysButtonWideTableRow {
+   display: table-row;
+   margin: 0px;
+   padding: 0px;
+   position: absolute;
+}
+
+.sysButtonWideDescription {
+   float: none;
+   display: table-column;
+   width: 1326px;
+   height: 28px;
+   background-color: #cfcfcf;
+   border: 1px dotted #cfcfcf;
+   left: 0px;
+   padding: 0px 0px 0px 0px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-weight: bold;
+   font-size: 12px;
+   position: absolute;
+}
+
+.sysButtonWideImage {
+   float: none;
+   width: 100px;
+   height: 28px;
+   border: 1px dotted #afafaf;
+   border-radius: 0px 0px 0px 0px;
+   left: 1326px;
+   padding: 0px 0px 0px 0px;
+   background-color: #cfcfcf;
+   background-image: url("/images/Button.png");
+   position: absolute;
+}
+
+
+/* --------------------------------------------- */
+/* sysMenu Styles                                */
+
+.sysMenuTable {
+   display: table;
+   width: 236px;
+   height: 800px;
+   top: 135px;
+   background-color: #f1f3f4;
+   border: 2px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 2px 2px 2px 2px;
+   padding: 0px;
+   position: absolute;
+   z-index: 90;
+}
+
+.sysMenuTableRow {
+   display: table-row;
+   margin: 0px;
+   padding: 0px;
+   position: absolute;
+   z-index: 90;
+}
+
+.sysMenuTableRowColHierarchyLevel {
+   float: none;
+   display: table-column;
+   width: 21px;
+   background-color: #efefef;
+   border: 1px dotted #cfcfcf;
+   border-radius: 0px 0px 0px 0px;
+   border-right-style: none;
+   left: 1px;
+   padding: 0px 0px 0px 0px;
+   position: absolute;
+   z-index: 90;
+}
+
+.sysMenuTableRowColOpenClose {
+   float: none;
+   display: table-column;
+   width: 20px;
+   height: 21px;
+   padding-top: 7px;
+   left: 18px;
+   position: absolute;
+   z-index: 100;
+}
+
+.sysMenuTableRowColIcon {
+   float: none;
+   display: table-column;
+   width: 20px;
+   height: 21px;
+   padding-left: 1px;
+   padding-top: 2px;
+   background-color: #efefef;
+   border: 1px dotted #cfcfcf;
+   border-right-style: none;
+   border-left-style: none;
+   left: 23px;
+   position: absolute;
+   z-index: 90;
+}
+
+.sysMenuTableRowColLink {
+   float: none;
+   display: table-column;
+   width: 192px;
+   height: 21px;
+   background-color: #efefef;
+   border: 1px dotted #cfcfcf;
+   border-radius: 0px 0px 0px 0px;
+   border-left-style: none;
+   left: 40px;
+   position: absolute;
+   z-index: 0;
+}
+
+.sysMenuHierarchyLevelImage {
+   width: 16px;
+   height: 16px;
+   background: url("/images/MenuHierarchy.png") repeat-y scroll 0 0;
+   background-size: 16px 16px;
+   position: absolute;
+}
+
+.sysMenuOpenCloseImageOpened {
+   width: 16px;
+   height: 16px;
+   background: url("/images/MenuOpenCloseOpened.png") repeat-y scroll 0 0 #efefef;
+   background-size: 16px 16px;
+   position: absolute;
+}
+
+.sysMenuOpenCloseImageClosed {
+   width: 16px;
+   height: 16px;
+   background: url("/images/MenuOpenCloseClosed.png") repeat-y scroll 0 0 #efefef;
+   background-size: 16px 16px;
+   position: absolute;
+}
+
+.sysMenuIconDefaultText {
+   width: 16px;
+   height: 16px;
+   background: url("/images/MenuIconDefaultText.png") repeat-y scroll 0 0;
+   background-size: 16px 16px;
+   position: absolute;
+}
+
+.sysMenuTableLink {
+   padding-left: 8px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 14px;
+   height: 16px;
+   color: #000731;
+   position: absolute;
+}
+
+
+/* --------------------------------------------- */
+/* Switch Screen Hide Layer                      */
+
+.sysScreenHideLayerTable {
+   display: table;
+   width: 100%;
+   height: 100%;
+   top: 0px;
+   left: 0px;
+   background-color: #ffffff;
+   padding: 0px;
+   z-index: 0;
+   position: absolute;
+}
+
+.sysScreenHideLayerTableRow {
+   display: table-row;
+   margin: 0px;
+   padding: 0px;
+   position: absolute;
+   z-index: 0;
+   position: absolute;
+}
+
+
+/* --------------------------------------------- */
+/* Default Styles                                */
+
+.DefaultSpacer {
+   width: 10px;
+   height: 10px;
+   background: url("/images/MenuOpenCloseClosed.png") repeat-y scroll 0 0 #efefef;
+   background-size: 10px 10px;
+}
+
+.DefaultTable {
+   display: table;
+   width: 800px;
+   height: 100px;
+   top: 40px;
+   left: 280px;
+   background-color: #f1f3f4;
+   border: 1px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 0px 5px 5px 0px;
+   padding: 1px;
+   position: absolute;
+}
+
+.DefaultTableRow {
+   display: table-row;
+   margin: 0px;
+   padding: 0px;
+   position: absolute;
+}
+
+.TableColSpacer {
+   float: none;
+   display: table-column;
+   width: 10px;
+   height: 10px;
+   left: 100px;
+   position: absolute;
+}
+
+.TableColSQLText1 {
+   float: none;
+   display: table-column;
+   width: 10px;
+   height: 10px;
+   left: 200px;
+   position: absolute;
+}
+
+
+
+/* --------------------------------------------- */
+/* User Form Field Styles                        */
+.DefaultFormListTable {
+   display: table;
+   width: 810px;
+   top: -2px;
+   left: 0px;
+   height: 280px;
+   background-color: #f1f1f1;
+   border: 2px solid #d5d5d5;
+   border-spacing: 2px;
+   border-radius: 3px 3px 3px 3px;
+   padding: 1px;
+   position: absolute;
+}
+
+.DefaultFormListTableRow {
+   display: table-row;
+   margin: 0px;
+   padding: 0px;
+   position: absolute;
+}
+
+.DefaultFormListColDescription {
+   display: table-column;
+   width: 260px;
+   left: 0px;
+   position: absolute;
+}
+
+.DefaultFormListColSpacer {
+   display: table-column;
+   width: 10px;
+   left: 160px;
+   position: absolute;
+}
+
+.DefaultFormListColForm {
+   display: table-column;
+   width: 160px;
+   left: 170px;
+   position: absolute;
+}
+
+.DefaultFormListDescription {
+   padding-left: 2px;
+   padding-top: 6px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 14px;
+   color: #000731;
+}
+
+/* ----------------------------------------------------------------------- */
+
+
+.FormfieldsReceiverEditTable {
+   display: table;
+   width: 810px;
+   height: 300px;
+   top: -2px;
+   left: 0px;
+   background-color: #f1f1f1;
+   border: 2px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 3px 3px 3px 3px;
+   padding: 1px;
+   position: absolute;
+}
+
+.FormfieldsReceiverEditTableRow {
+   display: table-row;
+   margin: 0px;
+   padding: 0px;
+   position: absolute;
+}
+
+.FormfieldsReceiverEditColDescription {
+   display: table-column;
+   width: 260px;
+   left: 0px;
+   position: absolute;
+}
+
+.FormfieldsReceiverEditColSpacer {
+   display: table-column;
+   width: 10px;
+   left: 160px;
+   position: absolute;
+}
+
+.FormfieldsReceiverEditColForm {
+   display: table-column;
+   width: 160px;
+   left: 170px;
+   position: absolute;
+}
+
+.FormfieldsReceiverEditDescription {
+   padding-left: 2px;
+   padding-top: 6px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 14px;
+   color: #000731;
+}
+
+/* ----------------------------------------------------------------------- */
+
+
+.FormfieldsShipmentHistoryReceiverTable {
+   display: table;
+   width: 810px;
+   height: 100px;
+   top: -2px;
+   left: 0px;
+   background-color: #f1f1f1;
+   border: 2px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 3px 3px 3px 3px;
+   padding: 1px;
+   position: absolute;
+}
+
+.FormfieldsShipmentHistoryReceiverTableRow {
+   display: table-row;
+   margin: 0px;
+   padding: 0px;
+   position: absolute;
+}
+
+.FormfieldsShipmentHistoryReceiverColDescription {
+   display: table-column;
+   width: 260px;
+   left: 0px;
+   position: absolute;
+}
+
+.FormfieldsShipmentHistoryReceiverColSpacer {
+   display: table-column;
+   width: 10px;
+   left: 160px;
+   position: absolute;
+}
+
+.FormfieldsShipmentHistoryReceiverColForm {
+   display: table-column;
+   width: 160px;
+   left: 170px;
+   position: absolute;
+}
+
+.FormfieldsShipmentHistoryReceiverDescription {
+   padding-left: 2px;
+   padding-top: 6px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 14px;
+   color: #000731;
+}
+
+/* ----------------------------------------------------------------------- */
+
+
+.FormfieldsShipmentDetailTable {
+   display: table;
+   width: 810px;
+   height: 200px;
+   top: 100x;
+   left: 270px;
+   background-color: #f1f1f1;
+   border: 2px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 3px 3px 3px 3px;
+   padding: 1px;
+   position: absolute;
+}
+
+.FormfieldsShipmentDetailTableRow {
+   display: table-row;
+   margin: 0px;
+   padding: 0px;
+   position: absolute;
+}
+
+.FormfieldsShipmentDetailColDescription {
+   display: table-column;
+   width: 260px;
+   left: 0px;
+   position: absolute;
+}
+
+.FormfieldsShipmentDetailColSpacer {
+   display: table-column;
+   width: 10px;
+   left: 160px;
+   position: absolute;
+}
+
+.FormfieldsShipmentDetailColForm {
+   display: table-column;
+   width: 160px;
+   left: 170px;
+   position: absolute;
+}
+
+.FormfieldsShipmentDetailDescription {
+   padding-left: 2px;
+   padding-top: 6px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 14px;
+   color: #000731;
+}
+
+/* ----------------------------------------------------------------------- */
+
+
+.FormfieldsArticleNewTable {
+   display: table;
+   width: 1410px;
+   height: 874px;
+   top: -2px;
+   left: 0px;
+   background-color: #f1f1f1;
+   border: 2px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 3px 3px 3px 3px;
+   padding: 10px;
+   position: absolute;
+}
+
+.FormfieldsArticleNewTableRow {
+   display: table-row;
+   margin: 0px;
+   padding: 0px;
+   position: absolute;
+}
+
+.FormfieldsArticleNewColDescription {
+   display: table-column;
+   width: 260px;
+   left: 0px;
+   position: absolute;
+}
+
+.FormfieldsArticleNewColSpacer {
+   display: table-column;
+   width: 10px;
+   left: 160px;
+   position: absolute;
+}
+
+.FormfieldsArticleNewColForm {
+   display: table-column;
+   width: 160px;
+   left: 170px;
+   position: absolute;
+}
+
+.FormfieldsArticleNewDescription {
+   padding-left: 2px;
+   padding-top: 6px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 14px;
+   color: #000731;
+}
+
+/* ----------------------------------------------------------------------- */
+
+
+.FormfieldsArticleUpdateTable {
+   display: table;
+   width: 1410px;
+   height: 904px;
+   top: 10px;
+   left: 270px;
+   background-color: #f1f1f1;
+   border: 2px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 3px 3px 3px 3px;
+   padding: 10px;
+   position: absolute;
+}
+
+.FormfieldsArticleUpdateTableRow {
+   display: table-row;
+   margin: 0px;
+   padding: 0px;
+   position: absolute;
+}
+
+.FormfieldsArticleUpdateColDescription {
+   display: table-column;
+   width: 260px;
+   left: 0px;
+   position: absolute;
+}
+
+.FormfieldsArticleUpdateColSpacer {
+   display: table-column;
+   width: 10px;
+   left: 160px;
+   position: absolute;
+}
+
+.FormfieldsArticleUpdateColForm {
+   display: table-column;
+   width: 160px;
+   left: 170px;
+   position: absolute;
+}
+
+.FormfieldsArticleUpdateDescription {
+   padding-left: 2px;
+   padding-top: 6px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 14px;
+   color: #000731;
+}
+
+
+/* ----------------------------------------------------------------------- */
+
+
+.FormfieldsGlobalTable {
+   display: table;
+   width: 809px;
+   height: 170px;
+   top: 10px;
+   left: 270px;
+   background-color: #f1f1f1;
+   border: 2px solid #d5d5d5;
+   border-spacing: 1px;
+   border-radius: 3px 3px 3px 3px;
+   position: absolute;
+   padding: 2px
+}
+
+.FormfieldsGlobalTableRow {
+   display: table-row;
+   margin: 0px;
+   padding: 0px;
+   position: absolute;
+}
+
+.FormfieldsGlobalColDescription {
+   display: table-column;
+   width: 260px;
+   left: 0px;
+   position: absolute;
+}
+
+.FormfieldsGlobalColSpacer {
+   display: table-column;
+   width: 10px;
+   left: 160px;
+   position: absolute;
+}
+
+.FormfieldsGlobalColForm {
+   display: table-column;
+   width: 160px;
+   left: 170px;
+   position: absolute;
+}
+
+.FormfieldsGlobalDescription {
+   padding-left: 2px;
+   padding-top: 6px;
+   font-family: "Verdana","Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+   font-size: 14px;
+   color: #000731;
+}
+

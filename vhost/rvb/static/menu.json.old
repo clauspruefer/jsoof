@@ -1,0 +1,83 @@
+{
+	"ContactRoot":
+	{
+		"TextID": "TXT.MENU.CONTACT",
+		"RefID": "MenuRoot"
+	},
+	"ArticleRoot":
+	{
+		"TextID": "TXT.MENU.ARTICLE",
+		"RefID": "MenuRoot"
+	},
+	"DeliveryRoot":
+	{
+		"TextID": "TXT.MENU.DELIVERY",
+		"RefID": "MenuRoot"
+	},
+	"ContactNew":
+	{
+		"TextID": "TXT.MENU.CONTACT.NEW",
+		"ScreenID": "ContactNew",
+		"RefID": "ContactRoot",
+		"IconStyle": "DefaultText",
+		"OnClickEvents": [ "ShipmentInSearchPalettes" ]
+	},
+	"ContactUpdate":
+	{
+		"TextID": "TXT.MENU.CONTACT.UPDATE",
+		"ScreenID": "ContactUpdate",
+		"RefID": "ContactRoot",
+		"IconStyle": "DefaultText",
+		"ActiveOnFormID": "ShipmentInDetailGlobalShipmentCode"
+	},
+	"ContactSearch":
+	{
+		"TextID": "TXT.MENU.CONTACT.SEARCH",
+		"ScreenID": "ContactSearch",
+		"RefID": "ContactRoot",
+		"IconStyle": "DefaultText",
+		"ActiveOnFormID": "ShipmentInDetailGlobalShipmentCode"
+	},
+	"ArticleNew":
+	{
+		"TextID": "TXT.MENU.ARTICLE.NEW",
+		"ScreenID": "ArticleNew",
+		"RefID": "ArticleRoot",
+		"IconStyle": "DefaultText"
+	},
+	"ArticleUpdate":
+	{
+		"TextID": "TXT.MENU.ARTICLE.UPDATE",
+		"ScreenID": "ArticleUpdate",
+		"RefID": "ArticleRoot",
+		"IconStyle": "DefaultText"
+	},
+	"ArticleSearch":
+	{
+		"TextID": "TXT.MENU.ARTICLE.SEARCH",
+		"ScreenID": "ArticleSearch",
+		"RefID": "ArticleRoot",
+		"IconStyle": "DefaultText"
+	},
+	"DeliveryAssignment":
+	{
+		"TextID": "TXT.MENU.DELIVERY.ASSIGNMENT",
+		"ScreenID": "DeliveryAssignment",
+		"RefID": "DeliveryRoot",
+		"IconStyle": "DefaultText"
+	},
+	"DeliveryHistory":
+	{
+		"TextID": "TXT.MENU.DELIVERY.HISTORY",
+		"ScreenID": "DeliveryHistory",
+		"RefID": "DeliveryRoot",
+		"IconStyle": "DefaultText"
+	},
+	"DeliveryDetail":
+	{
+		"TextID": "TXT.MENU.DELIVERY.DETAIL",
+		"ScreenID": "DeliveryDetail",
+		"RefID": "DeliveryRoot",
+		"IconStyle": "DefaultText"
+	}
+}
